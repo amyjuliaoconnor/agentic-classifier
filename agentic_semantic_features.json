@@ -1,0 +1,6006 @@
+{
+  "SmolAgents": {
+    "framework_signals": {
+      "frameworks": [
+        "SmolAgents",
+        "Cohere",
+        "Autogen",
+        "autogen",
+        "Langchain",
+        "HuggingFace",
+        "langchain",
+        "huggingface",
+        "smolagents",
+        "Smolagents"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "TOOL",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "Context",
+        "Task",
+        "Step"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "generate",
+        "prompt",
+        "reason",
+        "ChatCompletion",
+        "llm",
+        "Inference",
+        "completion",
+        "inference",
+        "thought",
+        "Generate",
+        "Thought",
+        "template",
+        "Prompt",
+        "predict",
+        "Template"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "tool",
+        "Tool",
+        "Retriever",
+        "function_call",
+        "Requests",
+        "retriever",
+        "search",
+        "Search",
+        "http",
+        "requests",
+        "browser",
+        "GoogleSearch"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Chroma",
+        "buffer",
+        "Context",
+        "Embedding",
+        "embedding",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".Env",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "agent.json",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "decide",
+        "PLAN",
+        "iterate",
+        "reason",
+        "Plan",
+        "Execute",
+        "loop",
+        "stream",
+        "execute",
+        "act",
+        "plan"
+      ]
+    },
+    "agent_score": 242
+  },
+  "uAgents": {
+    "framework_signals": {
+      "frameworks": [
+        "crewai",
+        "Crewai",
+        "uAgents",
+        "UAgents",
+        "agentverse",
+        "uagents",
+        "LangChain",
+        "CrewAI",
+        "Langchain",
+        "Agentverse",
+        "langchain"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Manifest",
+        "Metadata",
+        "agent.json",
+        "metadata",
+        "schema",
+        "manifest"
+      ],
+      "agent_concepts": [
+        "AgentExecutor",
+        "context",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "Context",
+        "Task",
+        "crew",
+        "Step"
+      ],
+      "memory_and_context": [
+        "context",
+        "History",
+        "Context",
+        "history"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "Requests",
+        "aiohttp",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "generate",
+        "prompt",
+        "reason",
+        "completion",
+        "Generate"
+      ],
+      "execution_patterns": [
+        "reason",
+        "Execute",
+        "stream",
+        "loop",
+        "observe",
+        "execute",
+        "act",
+        "respond"
+      ]
+    },
+    "agent_score": 170
+  },
+  "LangGraph_Example": {
+    "framework_signals": {
+      "frameworks": [
+        "LangChain"
+      ],
+      "agent_concepts": [
+        "workflow",
+        "tool"
+      ],
+      "tool_and_api_use": [
+        "tool"
+      ],
+      "config_patterns": [
+        "schema"
+      ],
+      "execution_patterns": [
+        "execute"
+      ]
+    },
+    "agent_score": 19
+  },
+  "Qwen_Agent": {
+    "framework_signals": {
+      "reasoning_and_llm": [
+        "Predict",
+        "LLM",
+        "prompt",
+        "generate",
+        "Inference",
+        "ChatCompletion",
+        "llm",
+        "reason",
+        "completion",
+        "inference",
+        "thought",
+        "Thought",
+        "Generate",
+        "template",
+        "Completion"
+      ],
+      "tool_and_api_use": [
+        "code_interpreter",
+        "HTTP",
+        "tool",
+        "Tool",
+        "FunctionCall",
+        "function_call",
+        "CodeInterpreter",
+        "retriever",
+        "search",
+        "http",
+        "requests",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "metadata",
+        "schema"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "FAISS",
+        "faiss",
+        "retrieval",
+        "Retrieval",
+        "embedding",
+        "History",
+        "history"
+      ],
+      "execution_patterns": [
+        "decide",
+        "Stream",
+        "reason",
+        "Execute",
+        "stream",
+        "loop",
+        "execute",
+        "act",
+        "plan",
+        "respond"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "frameworks": [
+        "langchain"
+      ]
+    },
+    "agent_score": 191
+  },
+  "OpenAI_Agents": {
+    "framework_signals": {
+      "agent_concepts": [
+        "Environment",
+        "Orchestrator",
+        "task",
+        "WORKFLOW",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "CONTEXT",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "memory",
+        "orchestrator",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "tool_and_api_use": [
+        "code_interpreter",
+        "HTTP",
+        "tool",
+        "Tool",
+        "function_call",
+        "Requests",
+        "Browser",
+        "CodeInterpreter",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Buffer",
+        "retrieval",
+        "buffer",
+        "Context",
+        "recall",
+        "History",
+        "CONTEXT",
+        "history"
+      ],
+      "execution_patterns": [
+        "Iterate",
+        "Act",
+        "decide",
+        "step_result",
+        "Stream",
+        "reason",
+        "plan",
+        "Execute",
+        "loop",
+        "stream",
+        "Respond",
+        "execute",
+        "iterate",
+        "respond"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "PROMPT",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "ChatCompletion",
+        "completion",
+        "Prompt",
+        "Generate",
+        "Thought",
+        "Chain"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "metadata",
+        "schema"
+      ],
+      "frameworks": [
+        "OpenAI-Agents",
+        "openai-agents"
+      ]
+    },
+    "agent_score": 243
+  },
+  "LangGraph_Example_Monorepo": {
+    "framework_signals": {
+      "agent_concepts": [
+        "workflow",
+        "tool"
+      ],
+      "execution_patterns": [
+        "execute"
+      ],
+      "tool_and_api_use": [
+        "tool"
+      ],
+      "config_patterns": [
+        "schema"
+      ]
+    },
+    "agent_score": 16
+  },
+  "SuperAGI": {
+    "framework_signals": {
+      "frameworks": [
+        "HuggingFace",
+        "huggingface",
+        "superagi",
+        "langchain",
+        "SuperAGI",
+        "SuperAgi"
+      ],
+      "agent_concepts": [
+        "AgentExecutor",
+        "memory",
+        "context",
+        "TOOL",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "Workflow",
+        "Context",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "generate",
+        "prompt",
+        "reason",
+        "Inference",
+        "llm",
+        "ChatCompletion",
+        "completion",
+        "inference",
+        "Prompt",
+        "Generate",
+        "Thought",
+        "template",
+        "Completion",
+        "Template",
+        "reflection"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "CHROMA",
+        "Chroma",
+        "WEAVIATE",
+        "VectorStore",
+        "retrieval",
+        "vectorstore",
+        "buffer",
+        "weaviate",
+        "recall",
+        "embedding",
+        "Context",
+        "Embedding",
+        "chroma",
+        "Weaviate",
+        "history"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "tool",
+        "Tool",
+        "function_call",
+        "Requests",
+        "aiohttp",
+        "search",
+        "google_search",
+        "http",
+        "GoogleSearch",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "load_config",
+        "config.yaml",
+        "metadata",
+        "schema",
+        "METADATA"
+      ],
+      "execution_patterns": [
+        "Iterate",
+        "decide",
+        "Act",
+        "reason",
+        "Loop",
+        "Plan",
+        "Execute",
+        "stream",
+        "Respond",
+        "observe",
+        "execute",
+        "plan",
+        "respond"
+      ]
+    },
+    "agent_score": 258
+  },
+  "LangGraph_101": {
+    "framework_signals": {
+      "frameworks": [
+        "LangChain",
+        "langchain"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "step",
+        "task",
+        "planner",
+        "workflow",
+        "CONTEXT",
+        "Step"
+      ],
+      "execution_patterns": [
+        "RESPOND",
+        "Respond",
+        "respond",
+        "decide"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "llm"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "tool",
+        "SEARCH",
+        "Requests",
+        "search",
+        "requests",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "schema"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Embedding",
+        "embedding",
+        "CONTEXT",
+        "history"
+      ]
+    },
+    "agent_score": 105
+  },
+  "Microsoft_Autogen": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "LlamaIndex_MultiAgent_Concierge": {
+    "framework_signals": {
+      "agent_concepts": [
+        "memory",
+        "context",
+        "tool",
+        "Tool",
+        "orchestrator",
+        "step",
+        "task",
+        "Workflow",
+        "Context",
+        "workflow"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "Tool"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Context",
+        "history"
+      ],
+      "config_patterns": [
+        "Metadata",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "reason",
+        "decide"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "reason",
+        "llm"
+      ]
+    },
+    "agent_score": 74
+  },
+  "LlamaIndex_MultiAgents_Workflow": {
+    "framework_signals": {
+      "agent_concepts": [
+        "memory",
+        "context",
+        "ENVIRONMENT",
+        "tool",
+        "Tool",
+        "environment",
+        "orchestrator",
+        "task",
+        "planner",
+        "step",
+        "Planner",
+        "Workflow",
+        "Context",
+        "workflow",
+        "Task"
+      ],
+      "reasoning_and_llm": [
+        "prompt",
+        "generate",
+        "llm"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Context",
+        "embedding",
+        "history"
+      ],
+      "tool_and_api_use": [
+        "http",
+        "tool",
+        "Tool"
+      ],
+      "config_patterns": [
+        ".env",
+        "Metadata",
+        "load_config",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "stream",
+        "plan",
+        "Plan"
+      ]
+    },
+    "agent_score": 105
+  },
+  "LlamaIndex_Agentic_RAG": {
+    "framework_signals": {
+      "agent_concepts": [
+        "context",
+        "Context"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "llm"
+      ],
+      "memory_and_context": [
+        "context",
+        "Context",
+        "Embedding"
+      ]
+    },
+    "agent_score": 20
+  },
+  "OpenAI_Realtime_Agents_Demo": {
+    "framework_signals": {
+      "agent_concepts": [
+        "TOOL",
+        "context",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "Context",
+        "Task"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "tool",
+        "Tool",
+        "function_call",
+        "search",
+        "functionCall",
+        "requests"
+      ],
+      "memory_and_context": [
+        "context",
+        "buffer",
+        "Context",
+        "History",
+        "history"
+      ],
+      "config_patterns": [
+        ".env",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "Plan",
+        "stream",
+        "Respond",
+        "execute",
+        "plan",
+        "respond"
+      ],
+      "reasoning_and_llm": [
+        "completion",
+        "prompt",
+        "Generate"
+      ]
+    },
+    "agent_score": 102
+  },
+  "OpenAI_CS_Agents_Demo": {
+    "framework_signals": {
+      "config_patterns": [
+        "Schema",
+        "metadata"
+      ],
+      "agent_concepts": [
+        "memory",
+        "context",
+        "tool",
+        "Context",
+        "CONTEXT"
+      ],
+      "tool_and_api_use": [
+        "http",
+        "tool"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Context",
+        "CONTEXT",
+        "history"
+      ],
+      "execution_patterns": [
+        "Respond"
+      ],
+      "reasoning_and_llm": [
+        "prompt"
+      ]
+    },
+    "agent_score": 44
+  },
+  "LlamaIndex_Docs_Agent": {
+    "framework_signals": {
+      "frameworks": [
+        "llamaindex",
+        "OpenAIAgent",
+        "LlamaIndex"
+      ],
+      "agent_concepts": [
+        "context",
+        "ENVIRONMENT",
+        "tool",
+        "environment",
+        "task",
+        "Step"
+      ],
+      "tool_and_api_use": [
+        "FUNCTION_CALL",
+        "function_call",
+        "tool"
+      ],
+      "execution_patterns": [
+        "loop",
+        "stream"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "prompt",
+        "llm"
+      ],
+      "memory_and_context": [
+        "embedding",
+        "context"
+      ],
+      "config_patterns": [
+        "Metadata",
+        "metadata",
+        "schema"
+      ]
+    },
+    "agent_score": 65
+  },
+  "OpenAI_Agents_Temporal_Demos": {
+    "framework_signals": {
+      "frameworks": [
+        "openai_agents",
+        "openai-agents"
+      ],
+      "agent_concepts": [
+        "context",
+        "tool",
+        "task",
+        "planner",
+        "Workflow",
+        "workflow"
+      ],
+      "execution_patterns": [
+        "decide",
+        "reason",
+        "Execute",
+        "loop",
+        "execute",
+        "plan",
+        "respond"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "search",
+        "function-call",
+        "requests",
+        "Search"
+      ],
+      "reasoning_and_llm": [
+        "PROMPT",
+        "prompt",
+        "generate",
+        "reason",
+        "completion",
+        "Generate"
+      ],
+      "config_patterns": [
+        ".env"
+      ],
+      "memory_and_context": [
+        "context"
+      ]
+    },
+    "agent_score": 96
+  },
+  "LangGraph_Open_Agent_Platform": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "search",
+        "requests",
+        "browser"
+      ],
+      "frameworks": [
+        "langchain"
+      ],
+      "agent_concepts": [
+        "tool",
+        "Tool",
+        "environment",
+        "step",
+        "workflow"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "Metadata",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "stream"
+      ],
+      "memory_and_context": [
+        "retrieval"
+      ],
+      "reasoning_and_llm": [
+        "prompt"
+      ]
+    },
+    "agent_score": 51
+  },
+  "Google_ADK_Made_Simple": {
+    "framework_signals": {
+      "agent_concepts": [
+        "TOOL",
+        "context",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "Task"
+      ],
+      "execution_patterns": [
+        "respond"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "generate",
+        "Generate",
+        "llm"
+      ],
+      "config_patterns": [
+        ".env",
+        "Metadata",
+        "agent.json",
+        "metadata",
+        "schema"
+      ],
+      "memory_and_context": [
+        "context",
+        "history"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "tool",
+        "Tool",
+        "aiohttp",
+        "http",
+        "requests"
+      ]
+    },
+    "agent_score": 68
+  },
+  "Google_ADK_Agent_Examples": {
+    "framework_signals": {
+      "agent_concepts": [
+        "memory",
+        "context",
+        "tool",
+        "Tool",
+        "environment",
+        "Orchestrator",
+        "task",
+        "step",
+        "workflow",
+        "Task"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "prompt",
+        "llm",
+        "completion"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "Tool",
+        "search",
+        "http",
+        "requests",
+        "Search"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Embedding"
+      ],
+      "config_patterns": [
+        ".env",
+        "metadata"
+      ],
+      "execution_patterns": [
+        "Execute",
+        "loop",
+        "Respond"
+      ]
+    },
+    "agent_score": 90
+  },
+  "HF_SmolAgents": {
+    "framework_signals": {
+      "frameworks": [
+        "SmolAgents",
+        "Cohere",
+        "Autogen",
+        "autogen",
+        "Langchain",
+        "HuggingFace",
+        "langchain",
+        "huggingface",
+        "smolagents",
+        "Smolagents"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "TOOL",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "Context",
+        "Task",
+        "Step"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "generate",
+        "prompt",
+        "reason",
+        "ChatCompletion",
+        "llm",
+        "Inference",
+        "completion",
+        "inference",
+        "thought",
+        "Generate",
+        "Thought",
+        "template",
+        "Prompt",
+        "predict",
+        "Template"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "tool",
+        "Tool",
+        "Retriever",
+        "function_call",
+        "Requests",
+        "retriever",
+        "search",
+        "Search",
+        "http",
+        "requests",
+        "browser",
+        "GoogleSearch"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Chroma",
+        "buffer",
+        "Context",
+        "Embedding",
+        "embedding",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".Env",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "agent.json",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "decide",
+        "PLAN",
+        "iterate",
+        "reason",
+        "Plan",
+        "Execute",
+        "loop",
+        "stream",
+        "execute",
+        "act",
+        "plan"
+      ]
+    },
+    "agent_score": 242
+  },
+  "Cohere_Notebooks": {
+    "framework_signals": {
+      "frameworks": [
+        "cohere",
+        "langchain",
+        "Cohere"
+      ],
+      "agent_concepts": [
+        "Step",
+        "task",
+        "tool",
+        "Tool"
+      ],
+      "execution_patterns": [
+        "loop",
+        "plan",
+        "execute"
+      ],
+      "reasoning_and_llm": [
+        "prompt",
+        "Generate",
+        "template",
+        "generate"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "Tool",
+        "retriever",
+        "search",
+        "aiohttp",
+        "requests",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Chroma",
+        "vectorstore",
+        "Retrieval",
+        "Embedding",
+        "embedding"
+      ],
+      "config_patterns": [
+        "metadata",
+        "schema"
+      ]
+    },
+    "agent_score": 78
+  },
+  "CrewAI_Quickstarts": {
+    "framework_signals": {
+      "config_patterns": [
+        "metadata"
+      ]
+    },
+    "agent_score": 1
+  },
+  "Microsoft_TaskWeaver": {
+    "framework_signals": {
+      "config_patterns": [
+        "MANIFEST",
+        "SCHEMA",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "load_config",
+        "config.yaml",
+        "metadata",
+        "schema"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "environment",
+        "task",
+        "planner",
+        "step",
+        "Planner",
+        "Context",
+        "TASK",
+        "Task",
+        "Step"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "FAISS",
+        "faiss",
+        "vectorstore",
+        "buffer",
+        "Context",
+        "Embedding",
+        "embedding",
+        "history"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "llm",
+        "completion",
+        "thought",
+        "Prompt",
+        "predict",
+        "inference",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "code_interpreter",
+        "tool",
+        "function_call",
+        "CodeInterpreter",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "execution_patterns": [
+        "Iterate",
+        "reason",
+        "Plan",
+        "Execute",
+        "loop",
+        "stream",
+        "execute",
+        "plan"
+      ],
+      "frameworks": [
+        "Huggingface",
+        "huggingface",
+        "langchain"
+      ]
+    },
+    "agent_score": 190
+  },
+  "OpenAI_Agents_JS_SDK": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "HTTP",
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "function_call",
+        "Browser",
+        "CodeInterpreter",
+        "search",
+        "http",
+        "functionCall",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".Env",
+        ".env",
+        "Metadata",
+        "metadata",
+        "schema",
+        "METADATA"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "decide",
+        "Stream",
+        "reason",
+        "loop",
+        "stream",
+        "Respond",
+        "Reason",
+        "execute",
+        "act",
+        "plan",
+        "respond"
+      ],
+      "frameworks": [
+        "cohere",
+        "OpenAI-Agents",
+        "huggingface",
+        "openai-agents"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "orchestrator",
+        "Orchestrator",
+        "task",
+        "step",
+        "planner",
+        "Planner",
+        "Workflow",
+        "WORKFLOW",
+        "Context",
+        "workflow",
+        "Step"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "ChatCompletion",
+        "inference",
+        "completion",
+        "Prompt",
+        "Thought",
+        "Generate",
+        "template",
+        "Reason",
+        "Chain",
+        "Completion",
+        "thought"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Buffer",
+        "retrieval",
+        "buffer",
+        "Context",
+        "embedding",
+        "History",
+        "history",
+        "vectorStore"
+      ]
+    },
+    "agent_score": 253
+  },
+  "SuperAGI_Tools": {
+    "framework_signals": {
+      "frameworks": [
+        "superagi"
+      ],
+      "agent_concepts": [
+        "environment",
+        "tool",
+        "Tool"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "Tool",
+        "search",
+        "requests",
+        "Search"
+      ],
+      "config_patterns": [
+        "config.yaml",
+        ".env",
+        "schema",
+        "Schema"
+      ],
+      "execution_patterns": [
+        "Execute",
+        "execute"
+      ],
+      "memory_and_context": [
+        "retrieval"
+      ],
+      "reasoning_and_llm": [
+        "Generate",
+        "llm"
+      ]
+    },
+    "agent_score": 47
+  },
+  "SuperAGI_Tools_Common": {
+    "framework_signals": {
+      "frameworks": [
+        "SuperAGI",
+        "superagi"
+      ],
+      "agent_concepts": [
+        "tool"
+      ],
+      "execution_patterns": [
+        "execute"
+      ],
+      "tool_and_api_use": [
+        "tool"
+      ],
+      "config_patterns": [
+        "Schema",
+        "load_config",
+        "schema",
+        "config.yaml"
+      ]
+    },
+    "agent_score": 21
+  },
+  "Awesome_SuperAGI": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "LangGraph": {
+    "framework_signals": {
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "decide",
+        "Stream",
+        "reason",
+        "Loop",
+        "plan",
+        "Plan",
+        "Execute",
+        "loop",
+        "stream",
+        "observe",
+        "execute",
+        "act",
+        "iterate",
+        "respond"
+      ],
+      "frameworks": [
+        "cohere",
+        "LangChain",
+        "autogen",
+        "LANGCHAIN",
+        "langchain"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "planner",
+        "TASK",
+        "Context",
+        "workflow",
+        "Task"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "SEARCH",
+        "retriever",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "retrieval",
+        "vectorstore",
+        "buffer",
+        "recall",
+        "Context",
+        "Embedding",
+        "embedding",
+        "Retrieval",
+        "history"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "TEMPLATE",
+        "LLM",
+        "prompt",
+        "generate",
+        "chatCompletion",
+        "reason",
+        "llm",
+        "Template",
+        "thought",
+        "inference",
+        "completion",
+        "Generate",
+        "Thought",
+        "template",
+        "Prompt",
+        "Chain"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "Metadata",
+        "metadata",
+        "schema",
+        "METADATA"
+      ]
+    },
+    "agent_score": 253
+  },
+  "MetaGPT_Ext": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "CrewAI_Examples": {
+    "framework_signals": {
+      "frameworks": [
+        "crewai",
+        "CrewAI",
+        "langchain"
+      ],
+      "agent_concepts": [
+        "memory",
+        "context",
+        "WorkFlow",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "Crew",
+        "Planner",
+        "Context",
+        "workflow",
+        "Task",
+        "crew"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Context"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "search",
+        "requests",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "schema"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "reason",
+        "llm",
+        "Template",
+        "template",
+        "Reason"
+      ],
+      "execution_patterns": [
+        "reason",
+        "Plan",
+        "Reason",
+        "execute",
+        "plan"
+      ]
+    },
+    "agent_score": 125
+  },
+  "CrewAI_Tools": {
+    "framework_signals": {
+      "frameworks": [
+        "crewai",
+        "Crewai",
+        "CrewAI",
+        "Langchain",
+        "langchain",
+        "crewAI",
+        "LlamaIndex"
+      ],
+      "agent_concepts": [
+        "context",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "Crew",
+        "workflow",
+        "Task",
+        "crew",
+        "Step"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "Retriever",
+        "Requests",
+        "Browser",
+        "CodeInterpreter",
+        "aiohttp",
+        "search",
+        "http",
+        "code-interpreter",
+        "SearcH",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "Metadata",
+        "metadata",
+        "schema",
+        "manifest"
+      ],
+      "memory_and_context": [
+        "context",
+        "VectorStore",
+        "vectorstore",
+        "retrieval",
+        "weaviate",
+        "Embedding",
+        "embedding",
+        "History",
+        "Weaviate",
+        "history"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "llm",
+        "completion",
+        "Prompt",
+        "Generate",
+        "Reason"
+      ],
+      "execution_patterns": [
+        "reason",
+        "Execute",
+        "loop",
+        "stream",
+        "observe",
+        "Reason",
+        "execute",
+        "act",
+        "Observe"
+      ]
+    },
+    "agent_score": 199
+  },
+  "OpenManus_RL_Agents": {
+    "framework_signals": {
+      "execution_patterns": [
+        "decide",
+        "PLAN",
+        "step_result",
+        "plan",
+        "Plan",
+        "Execute",
+        "stream",
+        "loop",
+        "Respond",
+        "execute",
+        "act",
+        "Observe",
+        "respond"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "prompt",
+        "generate",
+        "ChatCompletion",
+        "llm",
+        "COMPLETION",
+        "completion",
+        "thought",
+        "Prompt",
+        "Generate",
+        "Completion"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "googlesearch",
+        "tool",
+        "Tool",
+        "SEARCH",
+        "function_call",
+        "Browser",
+        "aiohttp",
+        "search",
+        "google_search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "TOOL",
+        "memory",
+        "context",
+        "Environment",
+        "AgentExecutor",
+        "tool",
+        "Tool",
+        "environment",
+        "step",
+        "task",
+        "TASK",
+        "BaseAgent",
+        "Context",
+        "workflow",
+        "Task",
+        "CONTEXT",
+        "Step"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Buffer",
+        "retrieval",
+        "buffer",
+        "Context",
+        "CONTEXT",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Metadata",
+        "load_config",
+        "metadata",
+        "schema"
+      ]
+    },
+    "agent_score": 227
+  },
+  "Google_ADK": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "tool",
+        "Tool",
+        "FunctionCall",
+        "Google-search",
+        "function_call",
+        "Requests",
+        "retriever",
+        "search",
+        "aiohttp",
+        "google_search",
+        "http",
+        "functionCall",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".Env",
+        ".env",
+        "Metadata",
+        "metadata",
+        "schema",
+        "manifest",
+        "METADATA"
+      ],
+      "execution_patterns": [
+        "Loop",
+        "Respond",
+        "Reason",
+        "respond",
+        "Act",
+        "decide",
+        "loop",
+        "reflect",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "plan",
+        "Iterate",
+        "PLAN",
+        "Stream",
+        "Plan",
+        "act",
+        "iterate"
+      ],
+      "reasoning_and_llm": [
+        "Predict",
+        "chain",
+        "PROMPT",
+        "TEMPLATE",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "Template",
+        "thought",
+        "inference",
+        "Prompt",
+        "Generate",
+        "predict",
+        "template",
+        "Reason",
+        "completion"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "task",
+        "BaseAgent",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "CONTEXT",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "TASK",
+        "memory",
+        "ENVIRONMENT",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "frameworks": [
+        "VertexAI",
+        "langchain",
+        "LangChain",
+        "vertexai"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "retrieval",
+        "buffer",
+        "Retrieval",
+        "Context",
+        "recall",
+        "embedding",
+        "CONTEXT",
+        "history"
+      ]
+    },
+    "agent_score": 302
+  },
+  "AnyAgent_Mozilla": {
+    "framework_signals": {
+      "reasoning_and_llm": [
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "ChatCompletion",
+        "llm",
+        "completion",
+        "thought",
+        "Prompt",
+        "Generate",
+        "Completion"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "memory",
+        "context",
+        "AgentExecutor",
+        "tool",
+        "Tool",
+        "environment",
+        "orchestrator",
+        "task",
+        "step",
+        "Context",
+        "workflow",
+        "Task",
+        "CONTEXT",
+        "Step"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "tool",
+        "Tool",
+        "FunctionCall",
+        "function_call",
+        "aiohttp",
+        "search",
+        "google_search",
+        "http",
+        "requests",
+        "Search"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "decide",
+        "reason",
+        "Execute",
+        "stream",
+        "loop",
+        "execute",
+        "act",
+        "plan",
+        "respond"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Context",
+        "CONTEXT",
+        "history"
+      ],
+      "frameworks": [
+        "AGNO",
+        "agno",
+        "LlamaIndex",
+        "openai-agents",
+        "LangChain",
+        "LLamaIndex",
+        "Langchain",
+        "OpenAIAgent",
+        "AnyAgent",
+        "LANGCHAIN",
+        "huggingface",
+        "SMOLAGENTS",
+        "langchain",
+        "Agno",
+        "smolagents",
+        "Smolagents"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Metadata",
+        "metadata",
+        "schema"
+      ]
+    },
+    "agent_score": 230
+  },
+  "AgentFactory_Mozilla": {
+    "framework_signals": {
+      "agent_concepts": [
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "Context",
+        "STEP",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "prompt",
+        "generate",
+        "ChatCompletion",
+        "llm",
+        "Template",
+        "completion",
+        "Prompt",
+        "Generate",
+        "template"
+      ],
+      "frameworks": [
+        "LangChain",
+        "AnyAgent",
+        "LANGCHAIN",
+        "SMOLAGENTS",
+        "smolagents"
+      ],
+      "execution_patterns": [
+        "decide",
+        "Decide",
+        "Plan",
+        "Execute",
+        "stream",
+        "Respond",
+        "loop",
+        "execute",
+        "plan"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "search",
+        "http",
+        "requests",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "agent.json",
+        "metadata",
+        "schema"
+      ],
+      "memory_and_context": [
+        "context",
+        "Retrieval",
+        "Context",
+        "retrieval"
+      ]
+    },
+    "agent_score": 165
+  },
+  "MetaGPT": {
+    "framework_signals": {
+      "frameworks": [
+        "metagpt",
+        "METAGPT",
+        "autogpt",
+        "MetaGPT",
+        "cohere",
+        "llamaindex",
+        "langchain",
+        "huggingface",
+        "VertexAI",
+        "semantic-kernel",
+        "semantic_kernel",
+        "LlamaIndex"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "REFLECTION",
+        "predict",
+        "Generate",
+        "Thought",
+        "Completion",
+        "Reason",
+        "Reflection",
+        "PROMPT",
+        "LLM",
+        "reflection",
+        "completion",
+        "Prompt",
+        "chain",
+        "TEMPLATE",
+        "prompt",
+        "reason",
+        "THOUGHT",
+        "Chain",
+        "REASON",
+        "ChatCompletion",
+        "llm",
+        "Template",
+        "thought",
+        "inference",
+        "GENERATE",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "SEARCH",
+        "Http",
+        "http",
+        "BROWSER",
+        "function_call",
+        "requests",
+        "Search",
+        "tool",
+        "Tool",
+        "Requests",
+        "aiohttp",
+        "retriever",
+        "google_search",
+        "browser",
+        "Retriever",
+        "Browser",
+        "search"
+      ],
+      "memory_and_context": [
+        "Faiss",
+        "FAISS",
+        "faiss",
+        "retrieval",
+        "Embedding",
+        "recall",
+        "History",
+        "chroma",
+        "history",
+        "context",
+        "buffer",
+        "HISTORY",
+        "CONTEXT",
+        "Memory",
+        "Chroma",
+        "Buffer",
+        "Retrieval",
+        "embedding",
+        "Recall",
+        "memory",
+        "CHROMA",
+        "Context"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "task",
+        "Planner",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "CONTEXT",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "STEP",
+        "TASK",
+        "memory",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "Metadata",
+        "config.yaml",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "Loop",
+        "Respond",
+        "Reason",
+        "respond",
+        "decide",
+        "Act",
+        "loop",
+        "Observe",
+        "reflect",
+        "Reflect",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "plan",
+        "Iterate",
+        "REASON",
+        "Stream",
+        "Plan",
+        "observe",
+        "EXECUTE",
+        "act",
+        "iterate"
+      ]
+    },
+    "agent_score": 406
+  },
+  "Lagant_Framework": {
+    "framework_signals": {
+      "frameworks": [
+        "HuggingFace",
+        "Lagent",
+        "huggingface",
+        "langchain",
+        "lagent"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "TEMPLATE",
+        "LLM",
+        "prompt",
+        "generate",
+        "llm",
+        "Template",
+        "thought",
+        "inference",
+        "completion",
+        "Generate",
+        "template",
+        "Completion"
+      ],
+      "tool_and_api_use": [
+        "code_interpreter",
+        "HTTP",
+        "tool",
+        "Tool",
+        "FunctionCall",
+        "Browser",
+        "aiohttp",
+        "search",
+        "Search",
+        "google_search",
+        "http",
+        "requests",
+        "GoogleSearch"
+      ],
+      "execution_patterns": [
+        "Stream",
+        "Plan",
+        "loop",
+        "stream",
+        "execute",
+        "respond"
+      ],
+      "config_patterns": [
+        ".env",
+        "metadata",
+        "schema"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "step",
+        "task",
+        "Context",
+        "Step"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Context",
+        "history"
+      ]
+    },
+    "agent_score": 167
+  },
+  "AgentVerse_Notebooks": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Databerry_Agent_Platform": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Cohere_Toolkit": {
+    "framework_signals": {
+      "agent_concepts": [
+        "TOOL",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "ENVIRONMENT",
+        "environment",
+        "task",
+        "step",
+        "Context",
+        "TASK",
+        "Task",
+        "Step"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "decide",
+        "iterate",
+        "Decide",
+        "Stream",
+        "reason",
+        "Loop",
+        "Plan",
+        "stream",
+        "loop",
+        "Reason",
+        "execute",
+        "plan",
+        "respond"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "tool",
+        "Tool",
+        "Retriever",
+        "http",
+        "Requests",
+        "aiohttp",
+        "search",
+        "retriever",
+        "google_search",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "context",
+        "Chroma",
+        "Buffer",
+        "retrieval",
+        "buffer",
+        "Retrieval",
+        "Context",
+        "embedding",
+        "History",
+        "history"
+      ],
+      "frameworks": [
+        "cohere",
+        "llamaindex",
+        "LangChain",
+        "AgentFactory",
+        "LLamaIndex",
+        "Langchain",
+        "langchain",
+        "Huggingface",
+        "Cohere"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Manifest",
+        "Metadata",
+        ".ENV",
+        "metadata",
+        "schema",
+        "METADATA"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "generate",
+        "prompt",
+        "reason",
+        "reflection",
+        "Template",
+        "completion",
+        "inference",
+        "Prompt",
+        "Generate",
+        "thought",
+        "template",
+        "Reason"
+      ]
+    },
+    "agent_score": 252
+  },
+  "Langroid_Chat_UI": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "tool",
+        "Tool",
+        "Browser",
+        "http",
+        "browser"
+      ],
+      "agent_concepts": [
+        "context",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "Context",
+        "Task"
+      ],
+      "execution_patterns": [
+        "STREAM",
+        "Act",
+        "Stream",
+        "Loop",
+        "loop",
+        "stream",
+        "Respond"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "prompt",
+        "Generate",
+        "llm"
+      ],
+      "config_patterns": [
+        ".env",
+        "metadata",
+        "MetaData"
+      ],
+      "memory_and_context": [
+        "context",
+        "Context",
+        "history"
+      ]
+    },
+    "agent_score": 94
+  },
+  "Langroid_Examples": {
+    "framework_signals": {
+      "execution_patterns": [
+        "REASON",
+        "decide",
+        "PLAN",
+        "Decide",
+        "DECIDE",
+        "reason",
+        "Execute",
+        "stream",
+        "loop",
+        "Respond",
+        "execute",
+        "plan",
+        "respond"
+      ],
+      "config_patterns": [
+        "SCHEMA",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "metadata",
+        "schema"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "memory",
+        "context",
+        "Memory",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "planner",
+        "Planner",
+        "workflow",
+        "Context",
+        "STEP",
+        "TASK",
+        "Task",
+        "Step"
+      ],
+      "reasoning_and_llm": [
+        "LanguageModel",
+        "chain",
+        "REASON",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "THOUGHT",
+        "llm",
+        "ChatCompletion",
+        "completion",
+        "thought",
+        "Prompt",
+        "Generate",
+        "template",
+        "Completion"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "SEARCH",
+        "Retriever",
+        "retriever",
+        "search",
+        "function-call",
+        "Function-call",
+        "http",
+        "code-interpreter",
+        "requests",
+        "browser",
+        "CODE_INTERPRETER",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Chroma",
+        "retrieval",
+        "vectorstore",
+        "HISTORY",
+        "Retrieval",
+        "Context",
+        "Embedding",
+        "embedding",
+        "weaviate",
+        "buffer",
+        "History",
+        "chroma",
+        "history"
+      ],
+      "frameworks": [
+        "LangChain",
+        "huggingface",
+        "langchain",
+        "Huggingface",
+        "haystack"
+      ]
+    },
+    "agent_score": 266
+  },
+  "Chidori_Runtime": {
+    "framework_signals": {
+      "agent_concepts": [
+        "step"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "template"
+      ]
+    },
+    "agent_score": 10
+  },
+  "Haystack": {
+    "framework_signals": {
+      "frameworks": [
+        "Haystack",
+        "HuggingFace",
+        "huggingface",
+        "Huggingface",
+        "haystack",
+        "Cohere"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "tool",
+        "Tool",
+        "Retriever",
+        "function_call",
+        "http",
+        "retriever",
+        "search",
+        "google_search",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Recall",
+        "memory",
+        "context",
+        "EMBEDDING",
+        "Chroma",
+        "retrieval",
+        "recall",
+        "Retrieval",
+        "Context",
+        "Embedding",
+        "embedding",
+        "History",
+        "Weaviate",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".Env",
+        ".env",
+        "MetaData",
+        "Metadata",
+        ".ENV",
+        "config.yaml",
+        "metadata",
+        "schema",
+        "METADATA"
+      ],
+      "reasoning_and_llm": [
+        "Predict",
+        "chain",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "ChatCompletion",
+        "llm",
+        "Inference",
+        "inference",
+        "completion",
+        "Prompt",
+        "Generate",
+        "Thought",
+        "template",
+        "predict",
+        "thought",
+        "Template"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "Context",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "decide",
+        "Decide",
+        "Stream",
+        "reason",
+        "Loop",
+        "plan",
+        "Execute",
+        "loop",
+        "stream",
+        "Respond",
+        "observe",
+        "execute",
+        "LOOP",
+        "iterate",
+        "respond"
+      ]
+    },
+    "agent_score": 274
+  },
+  "AnyAgent_DevTools": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "AgentVerse_Peiiii": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "execution_patterns": [
+        "Reflect",
+        "Stream",
+        "reason",
+        "Execute",
+        "loop",
+        "stream",
+        "observe",
+        "execute",
+        "plan"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "generate",
+        "prompt",
+        "chatCompletion",
+        "reason",
+        "completion",
+        "Prompt",
+        "Generate",
+        "template"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "orchestrator",
+        "task",
+        "step",
+        "BaseAgent",
+        "Context"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Context"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Metadata",
+        "metadata",
+        "schema",
+        "manifest"
+      ],
+      "frameworks": [
+        "openai-agent",
+        "agentverse",
+        "openaiAgent",
+        "OpenAIAgent",
+        "AgentVerse"
+      ]
+    },
+    "agent_score": 165
+  },
+  "Awesome_ADK": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "CrewAI": {
+    "framework_signals": {
+      "frameworks": [
+        "crewai",
+        "cohere",
+        "Crewai",
+        "CrewAI",
+        "vertexai",
+        "Langchain",
+        "HuggingFace",
+        "OpenAIAgent",
+        "CREWAI",
+        "huggingface",
+        "langchain",
+        "openai_agents",
+        "Huggingface",
+        "crewAI",
+        "LlamaIndex",
+        "Cohere"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "task",
+        "Planner",
+        "BaseAgent",
+        "MEMORY",
+        "CREW",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "Crew",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "TASK",
+        "crew",
+        "memory",
+        "Context",
+        "Step"
+      ],
+      "reasoning_and_llm": [
+        "ChatCompletion",
+        "chain",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "Inference",
+        "llm",
+        "Template",
+        "completion",
+        "thought",
+        "Prompt",
+        "Thought",
+        "Generate",
+        "template",
+        "inference",
+        "Completion",
+        "Reason"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "VectorStore",
+        "retrieval",
+        "MEMORY",
+        "buffer",
+        "Retrieval",
+        "Context",
+        "Embedding",
+        "embedding",
+        "vectorstore",
+        "weaviate",
+        "History",
+        "Weaviate",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "Metadata",
+        "load_config",
+        "metadata",
+        "schema",
+        "manifest"
+      ],
+      "execution_patterns": [
+        "Loop",
+        "Respond",
+        "Reason",
+        "respond",
+        "decide",
+        "Act",
+        "loop",
+        "Observe",
+        "reflect",
+        "LOOP",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "Stream",
+        "Plan",
+        "observe",
+        "act",
+        "plan"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "FunctionCall",
+        "http",
+        "function_call",
+        "CodeInterpreter",
+        "code-interpreter",
+        "SearcH",
+        "requests",
+        "Search",
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "Requests",
+        "retriever",
+        "aiohttp",
+        "browser",
+        "Retriever",
+        "Browser",
+        "search"
+      ]
+    },
+    "agent_score": 370
+  },
+  "LLMCompiler": {
+    "framework_signals": {
+      "execution_patterns": [
+        "decide",
+        "reason",
+        "Plan",
+        "Execute",
+        "loop",
+        "stream",
+        "execute",
+        "plan"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "PROMPT",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "llm",
+        "thought",
+        "language_model",
+        "predict",
+        "Thought",
+        "Generate",
+        "template",
+        "Prompt",
+        "Chain",
+        "Completion",
+        "completion"
+      ],
+      "agent_concepts": [
+        "AgentExecutor",
+        "Memory",
+        "context",
+        "memory",
+        "tool",
+        "Tool",
+        "step",
+        "task",
+        "planner",
+        "Planner",
+        "Context",
+        "Task",
+        "Step"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "Tool",
+        "aiohttp",
+        "search",
+        "http",
+        "requests",
+        "Search"
+      ],
+      "frameworks": [
+        "Langchain",
+        "langchain"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "buffer",
+        "Context"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "metadata",
+        "schema"
+      ]
+    },
+    "agent_score": 177
+  },
+  "AgentScope_Framework": {
+    "framework_signals": {
+      "frameworks": [
+        "agentscope",
+        "AgentScope",
+        "HuggingFace",
+        "huggingface",
+        "Agentscope",
+        "Huggingface"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "Orchestrator",
+        "task",
+        "Planner",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "memory",
+        "orchestrator",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "Reflect",
+        "decide",
+        "iterate",
+        "Stream",
+        "plan",
+        "reason",
+        "Plan",
+        "Execute",
+        "stream",
+        "loop",
+        "observe",
+        "execute",
+        "act",
+        "Observe",
+        "respond"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "ChatCompletion",
+        "reflection",
+        "llm",
+        "thought",
+        "inference",
+        "Prompt",
+        "Generate",
+        "Thought",
+        "template",
+        "Completion",
+        "Chain",
+        "completion"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "tool",
+        "Tool",
+        "function_call",
+        "Browser",
+        "search",
+        "google_search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Metadata",
+        "load_config",
+        "config.yaml",
+        "metadata",
+        "schema"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "EMBEDDING",
+        "retrieval",
+        "buffer",
+        "Retrieval",
+        "Context",
+        "Embedding",
+        "embedding",
+        "recall",
+        "History",
+        "history"
+      ]
+    },
+    "agent_score": 287
+  },
+  "Langroid_Framework": {
+    "framework_signals": {
+      "agent_concepts": [
+        "TOOL",
+        "task",
+        "Planner",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "STEP",
+        "TASK",
+        "memory",
+        "orchestrator",
+        "PLANNER",
+        "Context",
+        "Step"
+      ],
+      "execution_patterns": [
+        "Loop",
+        "Respond",
+        "respond",
+        "decide",
+        "DECIDE",
+        "loop",
+        "RESPOND",
+        "reflect",
+        "STREAM",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "Iterate",
+        "REASON",
+        "PLAN",
+        "Stream",
+        "Plan",
+        "act",
+        "plan"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "SEARCH",
+        "CODE-INTERPRETER",
+        "http",
+        "function_call",
+        "code-interpreter",
+        "requests",
+        "Search",
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "retriever",
+        "aiohttp",
+        "Function-call",
+        "google_search",
+        "browser",
+        "CODE_INTERPRETER",
+        "Retriever",
+        "search",
+        "function-call"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "metadata",
+        "schema"
+      ],
+      "memory_and_context": [
+        "retrieval",
+        "recall",
+        "Embedding",
+        "History",
+        "chroma",
+        "history",
+        "context",
+        "HISTORY",
+        "buffer",
+        "Weaviate",
+        "RETRIEVAL",
+        "Memory",
+        "Chroma",
+        "Retrieval",
+        "weaviate",
+        "embedding",
+        "memory",
+        "VectorStore",
+        "Context"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "predict",
+        "Generate",
+        "Completion",
+        "PROMPT",
+        "LLM",
+        "completion",
+        "Prompt",
+        "chain",
+        "TEMPLATE",
+        "prompt",
+        "reason",
+        "THOUGHT",
+        "Chain",
+        "LanguageModel",
+        "REASON",
+        "ChatCompletion",
+        "llm",
+        "Template",
+        "inference",
+        "thought",
+        "GENERATE",
+        "template"
+      ],
+      "frameworks": [
+        "Huggingface",
+        "HuggingFace",
+        "cohere",
+        "huggingface"
+      ]
+    },
+    "agent_score": 349
+  },
+  "AI_Legion": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "http",
+        "search",
+        "browser",
+        "Search"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "task",
+        "Context",
+        "Task"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "buffer",
+        "Context",
+        "history"
+      ],
+      "execution_patterns": [
+        "Act",
+        "decide",
+        "loop",
+        "execute",
+        "act"
+      ],
+      "config_patterns": [
+        ".env",
+        "schema"
+      ],
+      "reasoning_and_llm": [
+        "completion",
+        "prompt",
+        "reflection"
+      ]
+    },
+    "agent_score": 80
+  },
+  "DeerFlow_Deep_Research": {
+    "framework_signals": {
+      "frameworks": [
+        "LangChain",
+        "langchain"
+      ],
+      "execution_patterns": [
+        "Act",
+        "Stream",
+        "reason",
+        "Loop",
+        "Plan",
+        "Execute",
+        "stream",
+        "loop",
+        "observe",
+        "Reason",
+        "execute",
+        "plan"
+      ],
+      "agent_concepts": [
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "step",
+        "planner",
+        "task",
+        "Planner",
+        "Workflow",
+        "Context",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "Retriever",
+        "api_tool",
+        "function_call",
+        "aiohttp",
+        "search",
+        "retriever",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Buffer",
+        "retrieval",
+        "buffer",
+        "Context",
+        "Embedding",
+        "embedding",
+        "History",
+        "history"
+      ],
+      "reasoning_and_llm": [
+        "PROMPT",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "llm",
+        "Template",
+        "thought",
+        "completion",
+        "Prompt",
+        "Thought",
+        "Generate",
+        "template",
+        "Reason"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Metadata",
+        "metadata",
+        "schema",
+        "METADATA"
+      ]
+    },
+    "agent_score": 220
+  },
+  "Agent_S": {
+    "framework_signals": {
+      "reasoning_and_llm": [
+        "Predict",
+        "chain",
+        "LLM",
+        "generate",
+        "prompt",
+        "reason",
+        "reflection",
+        "llm",
+        "inference",
+        "completion",
+        "predict",
+        "Generate",
+        "thought",
+        "REFLECTION",
+        "Prompt",
+        "Completion",
+        "Reflection",
+        "Reason"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "environment",
+        "step",
+        "task",
+        "planner",
+        "TASK",
+        "Workflow",
+        "STEP",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "decide",
+        "PLAN",
+        "reason",
+        "Loop",
+        "Plan",
+        "Execute",
+        "loop",
+        "observe",
+        "Reason",
+        "execute",
+        "act",
+        "plan",
+        "respond"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "search",
+        "http",
+        "requests",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Buffer",
+        "retrieval",
+        "buffer",
+        "Retrieval",
+        "Embedding",
+        "embedding",
+        "History",
+        "history"
+      ],
+      "frameworks": [
+        "HuggingFace",
+        "huggingface"
+      ],
+      "config_patterns": [
+        ".env",
+        "Metadata",
+        "metadata"
+      ]
+    },
+    "agent_score": 226
+  },
+  "AgentBench": {
+    "framework_signals": {
+      "reasoning_and_llm": [
+        "chain",
+        "REASON",
+        "prompt",
+        "reason",
+        "completion",
+        "thought",
+        "inference",
+        "Thought"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "Tool",
+        "search",
+        "http",
+        "requests"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "Context",
+        "Task",
+        "Step"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "context",
+        "Context",
+        "recall",
+        "history"
+      ],
+      "config_patterns": [
+        "config.yaml",
+        ".env",
+        "schema",
+        "load_config"
+      ],
+      "execution_patterns": [
+        "REASON",
+        "Act",
+        "iterate",
+        "reason",
+        "loop",
+        "stream",
+        "execute",
+        "act",
+        "plan",
+        "respond"
+      ]
+    },
+    "agent_score": 142
+  },
+  "Agno": {
+    "framework_signals": {
+      "frameworks": [
+        "cohere",
+        "llamaindex",
+        "vertexai",
+        "langchain",
+        "agno",
+        "AGNO",
+        "CrewAI",
+        "autogen",
+        "openai_agent",
+        "huggingface",
+        "VertexAI",
+        "Huggingface",
+        "Agno",
+        "crewai",
+        "smolagents",
+        "LangChain",
+        "HuggingFace",
+        "AutoGen",
+        "LlamaIndex",
+        "Cohere"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "SEARCH",
+        "FunctionCall",
+        "http",
+        "REQUESTS",
+        "function_call",
+        "google-search",
+        "requests",
+        "Search",
+        "googlesearch",
+        "tool",
+        "Tool",
+        "Requests",
+        "retriever",
+        "aiohttp",
+        "google_search",
+        "browser",
+        "Retriever",
+        "Browser",
+        "search",
+        "GoogleSearch"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "Orchestrator",
+        "task",
+        "Planner",
+        "MEMORY",
+        "WORKFLOW",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "CONTEXT",
+        "Memory",
+        "AgentExecutor",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "STEP",
+        "TASK",
+        "memory",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "memory_and_context": [
+        "retrieval",
+        "MEMORY",
+        "recall",
+        "Embedding",
+        "History",
+        "chroma",
+        "history",
+        "context",
+        "buffer",
+        "HISTORY",
+        "Weaviate",
+        "CONTEXT",
+        "Memory",
+        "Chroma",
+        "Buffer",
+        "Retrieval",
+        "weaviate",
+        "embedding",
+        "Recall",
+        "memory",
+        "vectorstore",
+        "Context"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "load_config",
+        "config.yaml",
+        "metadata",
+        "schema",
+        "METADATA"
+      ],
+      "execution_patterns": [
+        "act",
+        "step_result",
+        "Loop",
+        "Respond",
+        "Reason",
+        "respond",
+        "decide",
+        "Act",
+        "loop",
+        "reflect",
+        "STREAM",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "plan",
+        "Iterate",
+        "PLAN",
+        "Stream",
+        "Plan",
+        "observe",
+        "LOOP",
+        "iterate"
+      ],
+      "reasoning_and_llm": [
+        "Language_model",
+        "generate",
+        "Inference",
+        "predict",
+        "Generate",
+        "Thought",
+        "Reason",
+        "Completion",
+        "LLM",
+        "completion",
+        "Prompt",
+        "chain",
+        "prompt",
+        "reason",
+        "Chain",
+        "ChatCompletion",
+        "llm",
+        "Template",
+        "inference",
+        "thought",
+        "GENERATE",
+        "template"
+      ]
+    },
+    "agent_score": 440
+  },
+  "DeepCode_Agentic_Coding": {
+    "framework_signals": {
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "task",
+        "MEMORY",
+        "WORKFLOW",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "CONTEXT",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "TASK",
+        "memory",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "tool",
+        "Tool",
+        "Requests",
+        "aiohttp",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Recall",
+        "retrieval",
+        "MEMORY",
+        "buffer",
+        "HISTORY",
+        "Context",
+        "History",
+        "CONTEXT",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Metadata",
+        "load_config",
+        "config.yaml",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "PLAN",
+        "Observe",
+        "reason",
+        "Loop",
+        "Plan",
+        "Execute",
+        "loop",
+        "stream",
+        "Respond",
+        "Reason",
+        "execute",
+        "LOOP",
+        "plan",
+        "respond"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "generate",
+        "prompt",
+        "reason",
+        "llm",
+        "completion",
+        "inference",
+        "Prompt",
+        "Generate",
+        "template",
+        "Reason",
+        "Completion"
+      ]
+    },
+    "agent_score": 247
+  },
+  "PocketFlow_Tutorial_Codebase": {
+    "framework_signals": {
+      "agent_concepts": [
+        "memory",
+        "context",
+        "Environment",
+        "environment",
+        "step",
+        "Context"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "prompt",
+        "Generate",
+        "PROMPT"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "requests"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Context"
+      ],
+      "config_patterns": [
+        ".env",
+        "metadata"
+      ],
+      "frameworks": [
+        "autogen",
+        "vertexai"
+      ],
+      "execution_patterns": [
+        "decide"
+      ]
+    },
+    "agent_score": 59
+  },
+  "CodeInterpreter_API": {
+    "framework_signals": {
+      "reasoning_and_llm": [
+        "LLM",
+        "prompt",
+        "generate",
+        "llm",
+        "Generate",
+        "template"
+      ],
+      "config_patterns": [
+        ".env",
+        "schema"
+      ],
+      "agent_concepts": [
+        "AgentExecutor",
+        "memory",
+        "context",
+        "tool",
+        "environment",
+        "task"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "buffer",
+        "HISTORY",
+        "history"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "codeinterpreter",
+        "function_call",
+        "aiohttp",
+        "search",
+        "CodeInterpreter",
+        "code-interpreter",
+        "requests"
+      ],
+      "execution_patterns": [
+        "loop"
+      ],
+      "frameworks": [
+        "langchain"
+      ]
+    },
+    "agent_score": 78
+  },
+  "Letta_Platform": {
+    "framework_signals": {
+      "frameworks": [
+        "Letta",
+        "LETTA",
+        "LangChain",
+        "autogen",
+        "vertexai",
+        "openai_agent",
+        "huggingface",
+        "letta",
+        "AutoGen",
+        "LlamaIndex"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "task",
+        "BaseAgent",
+        "MEMORY",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "CONTEXT",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "STEP",
+        "memory",
+        "orchestrator",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "Inference",
+        "Generate",
+        "Thought",
+        "Completion",
+        "PROMPT",
+        "LLM",
+        "completion",
+        "Prompt",
+        "chain",
+        "prompt",
+        "reason",
+        "Chain",
+        "chatcompletion",
+        "ChatCompletion",
+        "llm",
+        "Template",
+        "thought",
+        "inference",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "REQUESTS",
+        "tool",
+        "Tool",
+        "FunctionCall",
+        "function_call",
+        "Requests",
+        "retriever",
+        "search",
+        "aiohttp",
+        "function-call",
+        "http",
+        "functionCall",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Recall",
+        "EMBEDDING",
+        "Buffer",
+        "retrieval",
+        "MEMORY",
+        "buffer",
+        "HISTORY",
+        "Context",
+        "recall",
+        "embedding",
+        "CONTEXT",
+        "History",
+        "Embedding",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".Env",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "agent.json",
+        "metadata",
+        "schema",
+        "METADATA"
+      ],
+      "execution_patterns": [
+        "STEP_RESULT",
+        "Loop",
+        "Respond",
+        "respond",
+        "decide",
+        "Act",
+        "loop",
+        "reflect",
+        "Reflect",
+        "run_step",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "plan",
+        "Iterate",
+        "Stream",
+        "observe",
+        "act",
+        "iterate"
+      ]
+    },
+    "agent_score": 353
+  },
+  "AgentGPT": {
+    "framework_signals": {
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "metadata",
+        "schema"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "Tool",
+        "function_call",
+        "aiohttp",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "agent_concepts": [
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "ENVIRONMENT",
+        "environment",
+        "task",
+        "step",
+        "Context",
+        "workflow",
+        "Task",
+        "CONTEXT",
+        "Step"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "buffer",
+        "Context",
+        "Weaviate",
+        "embedding",
+        "CONTEXT",
+        "history"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "generate",
+        "chatCompletion",
+        "prompt",
+        "Inference",
+        "reason",
+        "llm",
+        "inference",
+        "completion",
+        "Generate",
+        "template",
+        "Reason"
+      ],
+      "execution_patterns": [
+        "reason",
+        "Plan",
+        "Execute",
+        "stream",
+        "Respond",
+        "Reason",
+        "execute",
+        "act",
+        "plan"
+      ],
+      "frameworks": [
+        "LangChain",
+        "langchain"
+      ]
+    },
+    "agent_score": 184
+  },
+  "Gptme_CLI_Agent": {
+    "framework_signals": {
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "orchestrator",
+        "step",
+        "task",
+        "planner",
+        "Planner",
+        "Context",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "execution_patterns": [
+        "Iterate",
+        "decide",
+        "iterate",
+        "Decide",
+        "Stream",
+        "reason",
+        "Loop",
+        "Plan",
+        "Execute",
+        "stream",
+        "loop",
+        "Respond",
+        "execute",
+        "act",
+        "plan",
+        "respond"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "Browser",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "llm",
+        "Template",
+        "completion",
+        "inference",
+        "Prompt",
+        "Generate",
+        "predict",
+        "template",
+        "Completion",
+        "Chain",
+        "reflection"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Metadata",
+        "load_config",
+        "config.yaml",
+        "metadata",
+        "schema"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "retrieval",
+        "buffer",
+        "Retrieval",
+        "Context",
+        "embedding",
+        "history"
+      ],
+      "frameworks": [
+        "langchain"
+      ]
+    },
+    "agent_score": 238
+  },
+  "Autonomous_Agents_Framework": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Awesome_LLM_Agents_Kaushik": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "search",
+        "requests"
+      ]
+    },
+    "agent_score": 4
+  },
+  "PocketFlow_Framework": {
+    "framework_signals": {
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "generate",
+        "prompt",
+        "reason",
+        "ChatCompletion",
+        "Template",
+        "thought",
+        "completion",
+        "Prompt",
+        "Generate",
+        "Thought",
+        "Chain"
+      ],
+      "execution_patterns": [
+        "decide",
+        "Decide",
+        "Stream",
+        "reason",
+        "Loop",
+        "Plan",
+        "Execute",
+        "loop",
+        "stream",
+        "observe",
+        "Respond",
+        "execute",
+        "act",
+        "plan",
+        "respond"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "Requests",
+        "Search",
+        "search",
+        "aiohttp",
+        "http",
+        "requests",
+        "browser",
+        "GoogleSearch"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "tool",
+        "Tool",
+        "environment",
+        "step",
+        "task",
+        "TASK",
+        "Workflow",
+        "Context",
+        "workflow",
+        "Task",
+        "CONTEXT",
+        "Step"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "FAISS",
+        "faiss",
+        "retrieval",
+        "buffer",
+        "Retrieval",
+        "Context",
+        "Embedding",
+        "embedding",
+        "HISTORY",
+        "CONTEXT",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "agent.json",
+        "metadata",
+        "schema"
+      ]
+    },
+    "agent_score": 230
+  },
+  "Awesome_AI_Agents_Jenqyang": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Awesome_AI_Agents_E2B": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Quark_Engine_Agent": {
+    "framework_signals": {
+      "frameworks": [
+        "langchain",
+        "haystack"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "prompt",
+        "generate",
+        "reason",
+        "llm",
+        "inference",
+        "predict",
+        "Generate",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "tool",
+        "SEARCH",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "reason",
+        "loop",
+        "execute",
+        "respond"
+      ],
+      "config_patterns": [
+        "MANIFEST",
+        ".env",
+        "Manifest",
+        "schema",
+        "manifest"
+      ],
+      "agent_concepts": [
+        "AgentExecutor",
+        "memory",
+        "context",
+        "tool",
+        "step",
+        "agentExecutor",
+        "Workflow",
+        "Context",
+        "workflow",
+        "Step"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "buffer",
+        "Context"
+      ]
+    },
+    "agent_score": 125
+  },
+  "Awesome_Agents_Kyrolabs": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "LangChain": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "HTTP",
+        "code_interpreter",
+        "TOOL",
+        "tool",
+        "Tool",
+        "Retriever",
+        "SEARCH",
+        "function_call",
+        "Requests",
+        "Browser",
+        "retriever",
+        "search",
+        "aiohttp",
+        "http",
+        "requests",
+        "browser",
+        "BROWSER",
+        "Search"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "Manifest",
+        "Metadata",
+        "metadata",
+        "schema",
+        "manifest",
+        "METADATA"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "Act",
+        "decide",
+        "Decide",
+        "Stream",
+        "reason",
+        "Loop",
+        "plan",
+        "Execute",
+        "stream",
+        "loop",
+        "Respond",
+        "Reason",
+        "execute",
+        "act",
+        "iterate",
+        "respond"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "Llm",
+        "Inference",
+        "predict",
+        "Generate",
+        "Thought",
+        "Completion",
+        "Reason",
+        "PROMPT",
+        "LLM",
+        "reflection",
+        "completion",
+        "Prompt",
+        "self-critique",
+        "Predict",
+        "chain",
+        "prompt",
+        "reason",
+        "language_model",
+        "Chain",
+        "ChatCompletion",
+        "llm",
+        "Template",
+        "inference",
+        "thought",
+        "template"
+      ],
+      "frameworks": [
+        "cohere",
+        "Huggingface",
+        "LangChain",
+        "vertexai",
+        "Langchain",
+        "HuggingFace",
+        "openai_agent",
+        "langchain",
+        "huggingface",
+        "VertexAI",
+        "Cohere"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "task",
+        "MEMORY",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "CONTEXT",
+        "AgentExecutor",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "STEP",
+        "crew",
+        "memory",
+        "Context",
+        "Step"
+      ],
+      "memory_and_context": [
+        "FAISS",
+        "retrieval",
+        "MEMORY",
+        "Embedding",
+        "recall",
+        "History",
+        "chroma",
+        "history",
+        "context",
+        "Vectorstore",
+        "buffer",
+        "Weaviate",
+        "CONTEXT",
+        "Memory",
+        "Chroma",
+        "Buffer",
+        "Retrieval",
+        "weaviate",
+        "embedding",
+        "memory",
+        "VectorStore",
+        "vectorstore",
+        "Context"
+      ]
+    },
+    "agent_score": 372
+  },
+  "Awesome_LLM_Powered_Agent": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Awesome_LLM_Agents_Junhua": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "XAgent_OpenBMB": {
+    "framework_signals": {
+      "agent_concepts": [
+        "TOOL",
+        "memory",
+        "context",
+        "Environment",
+        "Memory",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "TASK",
+        "BaseAgent",
+        "Workflow",
+        "MEMORY",
+        "Context",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Reflect",
+        "decide",
+        "PLAN",
+        "iterate",
+        "Decide",
+        "reason",
+        "Loop",
+        "Plan",
+        "Execute",
+        "loop",
+        "stream",
+        "Reason",
+        "execute",
+        "act",
+        "plan",
+        "respond"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "Generate",
+        "Reason",
+        "Reflection",
+        "PROMPT",
+        "LLM",
+        "reflection",
+        "completion",
+        "Prompt",
+        "chain",
+        "prompt",
+        "reason",
+        "chatcompletion",
+        "ChatCompletion",
+        "llm",
+        "thought",
+        "inference",
+        "GENERATE",
+        "template"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".Env",
+        "loadConfig",
+        ".env",
+        "metadata",
+        "schema"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "tool",
+        "Tool",
+        "function_call",
+        "retriever",
+        "search",
+        "Http",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "retrieval",
+        "MEMORY",
+        "buffer",
+        "Retrieval",
+        "Context",
+        "Embedding",
+        "embedding",
+        "recall",
+        "history"
+      ],
+      "frameworks": [
+        "autogpt"
+      ]
+    },
+    "agent_score": 271
+  },
+  "Awesome_Agent_Papers_Luo": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Awesome_LLM_Agents_Scientific_Discovery": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Awesome_Autonomous_Agents_Jbesomi": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Awesome_AI_Agents_Slava": {
+    "framework_signals": {
+      "reasoning_and_llm": [
+        "prompt",
+        "generate",
+        "template",
+        "Template"
+      ],
+      "tool_and_api_use": [
+        "search",
+        "requests"
+      ],
+      "agent_concepts": [
+        "task"
+      ]
+    },
+    "agent_score": 20
+  },
+  "GPT_Researcher": {
+    "framework_signals": {
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "orchestrator",
+        "task",
+        "step",
+        "planner",
+        "workflow",
+        "Context",
+        "TASK",
+        "Task"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "TEMPLATE",
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "llm",
+        "completion",
+        "Prompt",
+        "Generate",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "Retriever",
+        "RETRIEVER",
+        "Browser",
+        "retriever",
+        "search",
+        "Search",
+        "aiohttp",
+        "http",
+        "requests",
+        "browser",
+        "GoogleSearch"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "decide",
+        "Stream",
+        "reason",
+        "Loop",
+        "Plan",
+        "Execute",
+        "stream",
+        "loop",
+        "observe",
+        "execute",
+        "plan",
+        "respond"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Manifest",
+        "Metadata",
+        "load_config",
+        "metadata",
+        "schema",
+        "manifest"
+      ],
+      "memory_and_context": [
+        "Recall",
+        "memory",
+        "context",
+        "Memory",
+        "EMBEDDING",
+        "FAISS",
+        "VectorStore",
+        "retrieval",
+        "vectorstore",
+        "buffer",
+        "Context",
+        "recall",
+        "embedding",
+        "History",
+        "Embedding",
+        "history"
+      ],
+      "frameworks": [
+        "cohere",
+        "LangChain",
+        "Langchain",
+        "huggingface",
+        "langchain"
+      ]
+    },
+    "agent_score": 246
+  },
+  "AI_Agents_Projects_500": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "LLM_Agents_Papers_AGI_Edgerunners": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "http",
+        "search",
+        "requests"
+      ],
+      "reasoning_and_llm": [
+        "LLM"
+      ]
+    },
+    "agent_score": 9
+  },
+  "Awesome_LLM_Hannibal": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "Databerry_NoCode_Agents": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "LLM_Agents_DevTools": {
+    "framework_signals": {},
+    "agent_score": 0
+  },
+  "AReaL_RL_Agents": {
+    "framework_signals": {
+      "config_patterns": [
+        ".env",
+        "Metadata",
+        ".ENV",
+        "load_config",
+        "config.yaml",
+        "metadata",
+        "schema"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "orchestrator",
+        "step",
+        "task",
+        "planner",
+        "Workflow",
+        "Context",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "Inference",
+        "Generate",
+        "Completion",
+        "INFERENCE",
+        "LLM",
+        "completion",
+        "Prompt",
+        "chain",
+        "prompt",
+        "reason",
+        "language_model",
+        "Chain",
+        "ChatCompletion",
+        "llm",
+        "inference",
+        "thought",
+        "GENERATE",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "functioncall",
+        "HTTP",
+        "tool",
+        "Tool",
+        "Functioncall",
+        "function_call",
+        "Requests",
+        "aiohttp",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Recall",
+        "memory",
+        "context",
+        "Memory",
+        "Buffer",
+        "buffer",
+        "Context",
+        "Embedding",
+        "embedding",
+        "history"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "decide",
+        "run_step",
+        "Stream",
+        "reason",
+        "Loop",
+        "plan",
+        "Execute",
+        "stream",
+        "loop",
+        "observe",
+        "Respond",
+        "execute",
+        "act",
+        "iterate",
+        "respond"
+      ],
+      "frameworks": [
+        "HuggingFace",
+        "OpenAIAgent",
+        "huggingface",
+        "openai-agents"
+      ]
+    },
+    "agent_score": 271
+  },
+  "ElizaOS": {
+    "framework_signals": {
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "Orchestrator",
+        "task",
+        "MEMORY",
+        "WORKFLOW",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "CONTEXT",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "STEP",
+        "TASK",
+        "memory",
+        "ENVIRONMENT",
+        "orchestrator",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "execution_patterns": [
+        "act",
+        "Loop",
+        "Respond",
+        "Reason",
+        "respond",
+        "decide",
+        "Act",
+        "loop",
+        "RESPOND",
+        "REFLECT",
+        "reflect",
+        "STREAM",
+        "Reflect",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "Iterate",
+        "REASON",
+        "Stream",
+        "Plan",
+        "observe",
+        "EXECUTE",
+        "LOOP",
+        "plan"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "REFLECTION",
+        "Generate",
+        "Thought",
+        "Reason",
+        "Completion",
+        "Reflection",
+        "LLM",
+        "reflection",
+        "completion",
+        "Prompt",
+        "chain",
+        "prompt",
+        "reason",
+        "CHAIN",
+        "Chain",
+        "REASON",
+        "llm",
+        "Template",
+        "thought",
+        "inference",
+        "GENERATE",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "tool",
+        "Tool",
+        "SEARCH",
+        "Browser",
+        "search",
+        "http",
+        "functionCall",
+        "requests",
+        "browser",
+        "BROWSER",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "EMBEDDING",
+        "Buffer",
+        "retrieval",
+        "MEMORY",
+        "buffer",
+        "Retrieval",
+        "Context",
+        "Embedding",
+        "embedding",
+        "History",
+        "CONTEXT",
+        "RETRIEVAL",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        "metaData",
+        "loadConfig",
+        ".env",
+        "Metadata",
+        ".ENV",
+        "agent.json",
+        "config.yaml",
+        "metadata",
+        "schema",
+        "manifest",
+        "METADATA"
+      ],
+      "frameworks": [
+        "langchain"
+      ]
+    },
+    "agent_score": 365
+  },
+  "Airweave_Context_Agent": {
+    "framework_signals": {
+      "tool_and_api_use": [
+        "HTTP",
+        "tool",
+        "Tool",
+        "Requests",
+        "Browser",
+        "aiohttp",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "generate",
+        "prompt",
+        "reason",
+        "COMPLETION",
+        "llm",
+        "Template",
+        "completion",
+        "inference",
+        "Generate",
+        "template",
+        "Completion",
+        "Chain",
+        "Reason"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "Manifest",
+        "Metadata",
+        ".ENV",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "decide",
+        "iterate",
+        "Decide",
+        "Stream",
+        "reason",
+        "Plan",
+        "Execute",
+        "stream",
+        "loop",
+        "observe",
+        "Reason",
+        "execute",
+        "EXECUTE",
+        "act",
+        "plan",
+        "respond"
+      ],
+      "agent_concepts": [
+        "memory",
+        "context",
+        "Environment",
+        "STEP",
+        "ENVIRONMENT",
+        "Tool",
+        "tool",
+        "environment",
+        "orchestrator",
+        "Orchestrator",
+        "step",
+        "task",
+        "Workflow",
+        "Context",
+        "WORKFLOW",
+        "workflow",
+        "Task",
+        "Step"
+      ],
+      "memory_and_context": [
+        "memory",
+        "context",
+        "Buffer",
+        "retrieval",
+        "buffer",
+        "Retrieval",
+        "weaviate",
+        "Weaviate",
+        "embedding",
+        "Context",
+        "recall",
+        "History",
+        "Embedding",
+        "history"
+      ],
+      "frameworks": [
+        "cohere",
+        "Cohere"
+      ]
+    },
+    "agent_score": 271
+  },
+  "Chidori_Runtime_Rust": {
+    "framework_signals": {
+      "agent_concepts": [
+        "step"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "template"
+      ]
+    },
+    "agent_score": 10
+  },
+  "AgentVerse": {
+    "framework_signals": {
+      "frameworks": [
+        "autogpt",
+        "agentverse",
+        "langchain",
+        "AgentVerse",
+        "AutoGPT"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Reflect",
+        "Stream",
+        "plan",
+        "Loop",
+        "Plan",
+        "Execute",
+        "loop",
+        "stream",
+        "observe",
+        "execute",
+        "act",
+        "iterate",
+        "respond"
+      ],
+      "reasoning_and_llm": [
+        "chain",
+        "LLM",
+        "prompt",
+        "generate",
+        "llm",
+        "Template",
+        "thought",
+        "reflection",
+        "Prompt",
+        "Generate",
+        "Thought",
+        "template",
+        "Completion",
+        "Reflection"
+      ],
+      "tool_and_api_use": [
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "function_call",
+        "Browser",
+        "aiohttp",
+        "search",
+        "http",
+        "requests",
+        "browser",
+        "BROWSER",
+        "Search"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "step",
+        "task",
+        "Workflow",
+        "MEMORY",
+        "BaseAgent",
+        "Context",
+        "Task",
+        "Step"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Buffer",
+        "retrieval",
+        "MEMORY",
+        "buffer",
+        "vectorstore",
+        "Context",
+        "embedding",
+        "History",
+        "history"
+      ],
+      "config_patterns": [
+        ".env",
+        "LoadConfig",
+        "Metadata",
+        ".ENV",
+        "config.yaml",
+        "metadata"
+      ]
+    },
+    "agent_score": 241
+  },
+  "AgentUniverse_Framework": {
+    "framework_signals": {
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "task",
+        "Planner",
+        "MEMORY",
+        "WORKFLOW",
+        "workflow",
+        "Task",
+        "context",
+        "AgentNode",
+        "environment",
+        "Memory",
+        "AgentExecutor",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "memory",
+        "PLANNER",
+        "Workflow",
+        "Context"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "predict",
+        "Generate",
+        "Thought",
+        "Completion",
+        "PROMPT",
+        "LLM",
+        "completion",
+        "Prompt",
+        "Predict",
+        "chain",
+        "prompt",
+        "reason",
+        "ChatCompletion",
+        "llm",
+        "Template",
+        "thought",
+        "inference",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "HTTP",
+        "tool",
+        "Tool",
+        "SEARCH",
+        "FunctionCall",
+        "browser",
+        "function_call",
+        "APITool",
+        "search",
+        "aiohttp",
+        "http",
+        "requests",
+        "api_tool",
+        "Search"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "EMBEDDING",
+        "FAISS",
+        "faiss",
+        "retrieval",
+        "MEMORY",
+        "buffer",
+        "Retrieval",
+        "Context",
+        "Embedding",
+        "embedding",
+        "History",
+        "chroma",
+        "history"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Metadata",
+        "load_config",
+        "config.yaml",
+        "metadata",
+        "schema"
+      ],
+      "execution_patterns": [
+        "reflect",
+        "Iterate",
+        "decide",
+        "Act",
+        "Stream",
+        "reason",
+        "Execute",
+        "loop",
+        "stream",
+        "execute",
+        "act",
+        "plan"
+      ],
+      "frameworks": [
+        "LangChain",
+        "cohere",
+        "langchain",
+        "Langchain"
+      ]
+    },
+    "agent_score": 282
+  },
+  "Semantic_Kernel": {
+    "framework_signals": {
+      "frameworks": [
+        "cohere",
+        "CrewAI",
+        "Semantic-Kernel",
+        "vertexai",
+        "autogen",
+        "SemanticKernel",
+        "HuggingFace",
+        "huggingface",
+        "COHERE",
+        "SEMANTIC-KERNEL",
+        "VertexAI",
+        "AutoGen",
+        "semantic-kernel",
+        "semantic_kernel",
+        "Cohere"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "task",
+        "Planner",
+        "BaseAgent",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "Crew",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "STEP",
+        "TASK",
+        "crew",
+        "memory",
+        "orchestrator",
+        "Context",
+        "Step"
+      ],
+      "execution_patterns": [
+        "Loop",
+        "ACT",
+        "Respond",
+        "Reason",
+        "respond",
+        "Act",
+        "decide",
+        "loop",
+        "RESPOND",
+        "reflect",
+        "run_step",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "Iterate",
+        "iterate",
+        "Stream",
+        "Plan",
+        "observe",
+        "act",
+        "plan"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "Inference",
+        "predict",
+        "Generate",
+        "Completion",
+        "Reason",
+        "PROMPT",
+        "LLM",
+        "reflection",
+        "completion",
+        "Prompt",
+        "chain",
+        "prompt",
+        "reason",
+        "Chain",
+        "ChatCompletion",
+        "llm",
+        "Template",
+        "inference",
+        "thought",
+        "template"
+      ],
+      "memory_and_context": [
+        "Faiss",
+        "faiss",
+        "retrieval",
+        "VECTORSTORE",
+        "recall",
+        "Embedding",
+        "History",
+        "chroma",
+        "history",
+        "context",
+        "buffer",
+        "HISTORY",
+        "Weaviate",
+        "Memory",
+        "EMBEDDING",
+        "Chroma",
+        "Buffer",
+        "weaviate",
+        "embedding",
+        "Recall",
+        "memory",
+        "VectorStore",
+        "vectorstore",
+        "Context"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "Metadata",
+        "metadata",
+        "schema",
+        "manifest",
+        "METADATA"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "FunctionCall",
+        "FUNCTION_CALL",
+        "http",
+        "function_call",
+        "CodeInterpreter",
+        "code-interpreter",
+        "requests",
+        "Search",
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "aiohttp",
+        "google_search",
+        "browser",
+        "CODE_INTERPRETER",
+        "search",
+        "function-call",
+        "GoogleSearch"
+      ]
+    },
+    "agent_score": 407
+  },
+  "AutoGPT": {
+    "framework_signals": {
+      "frameworks": [
+        "autogpt",
+        "cohere",
+        "AUTOGPT",
+        "HuggingFace",
+        "huggingface",
+        "AutoGPT"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "Orchestrator",
+        "task",
+        "agentnode",
+        "BaseAgent",
+        "MEMORY",
+        "workflow",
+        "Task",
+        "context",
+        "AgentNode",
+        "environment",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "STEP",
+        "TASK",
+        "crew",
+        "ORCHESTRATOR",
+        "memory",
+        "ENVIRONMENT",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "execution_patterns": [
+        "Loop",
+        "ACT",
+        "acT",
+        "Respond",
+        "Reason",
+        "respond",
+        "decide",
+        "Act",
+        "loop",
+        "RESPOND",
+        "aCt",
+        "reflect",
+        "Reflect",
+        "LOOP",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "OBSERVE",
+        "Iterate",
+        "PLAN",
+        "aCT",
+        "iterate",
+        "Stream",
+        "Plan",
+        "observe",
+        "EXECUTE",
+        "act",
+        "plan"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "predict",
+        "Generate",
+        "Reason",
+        "Completion",
+        "LLM",
+        "completion",
+        "Prompt",
+        "Predict",
+        "chain",
+        "TEMPLATE",
+        "prompt",
+        "reason",
+        "CHAIN",
+        "ChatCompletion",
+        "llm",
+        "Template",
+        "inference",
+        "GENERATE",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "REQUESTS",
+        "tool",
+        "Tool",
+        "SEARCH",
+        "function_call",
+        "Requests",
+        "aiohttp",
+        "search",
+        "Http",
+        "function-call",
+        "http",
+        "ExternalCall",
+        "external_call",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "config_patterns": [
+        "MANIFEST",
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "Manifest",
+        "MetaData",
+        "Metadata",
+        "agent.json",
+        "load_config",
+        "config.yaml",
+        "metadata",
+        "schema",
+        "manifest",
+        "METADATA"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "Recall",
+        "EMBEDDING",
+        "Buffer",
+        "retrieval",
+        "MEMORY",
+        "buffer",
+        "HISTORY",
+        "Context",
+        "Embedding",
+        "embedding",
+        "Retrieval",
+        "recall",
+        "History",
+        "history"
+      ]
+    },
+    "agent_score": 412
+  },
+  "Awesome_LLM_Apps_Shubham": {
+    "framework_signals": {
+      "frameworks": [
+        "crewai",
+        "cohere",
+        "agno",
+        "openai-agents",
+        "CrewAI",
+        "LangChain",
+        "autogen",
+        "openai_agent",
+        "langchain",
+        "Agno",
+        "AutoGen",
+        "Cohere"
+      ],
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "WorkFlow",
+        "Orchestrator",
+        "task",
+        "Planner",
+        "BaseAgent",
+        "MEMORY",
+        "WORKFLOW",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "Crew",
+        "CONTEXT",
+        "Memory",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "STEP",
+        "TASK",
+        "crew",
+        "memory",
+        "ENVIRONMENT",
+        "orchestrator",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "execution_patterns": [
+        "Loop",
+        "Respond",
+        "Reason",
+        "respond",
+        "Act",
+        "decide",
+        "loop",
+        "RESPOND",
+        "Reflect",
+        "Decide",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "Iterate",
+        "PLAN",
+        "Stream",
+        "Plan",
+        "observe",
+        "act",
+        "plan"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "Generate",
+        "Thought",
+        "Reason",
+        "Completion",
+        "LLM",
+        "completion",
+        "Prompt",
+        "Predict",
+        "chain",
+        "prompt",
+        "reason",
+        "Chain",
+        "llm",
+        "Template",
+        "thought",
+        "inference",
+        "GENERATE",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "TOOL",
+        "code_interpreter",
+        "googlesearch",
+        "tool",
+        "Tool",
+        "Retriever",
+        "SEARCH",
+        "function_call",
+        "Requests",
+        "Browser",
+        "retriever",
+        "search",
+        "aiohttp",
+        "google_search",
+        "http",
+        "requests",
+        "browser",
+        "Search"
+      ],
+      "memory_and_context": [
+        "FAISS",
+        "faiss",
+        "retrieval",
+        "MEMORY",
+        "Embedding",
+        "History",
+        "chroma",
+        "history",
+        "context",
+        "buffer",
+        "CONTEXT",
+        "Memory",
+        "Chroma",
+        "Buffer",
+        "Retrieval",
+        "embedding",
+        "memory",
+        "vectorstore",
+        "Context"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "Manifest",
+        "Metadata",
+        "metadata",
+        "schema",
+        "manifest"
+      ]
+    },
+    "agent_score": 395
+  },
+  "AiWaves_Agents_Framework": {
+    "framework_signals": {
+      "frameworks": [
+        "AIWaves",
+        "aiwaves"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "metadata",
+        "schema"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "workflow",
+        "TASK",
+        "Task"
+      ],
+      "tool_and_api_use": [
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "Search",
+        "search",
+        "retriever",
+        "http",
+        "requests",
+        "browser",
+        "GoogleSearch"
+      ],
+      "execution_patterns": [
+        "Iterate",
+        "decide",
+        "reason",
+        "stream",
+        "loop",
+        "observe",
+        "execute",
+        "act",
+        "plan"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "llm",
+        "thought",
+        "completion",
+        "Prompt",
+        "Generate",
+        "template"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "retrieval",
+        "weaviate",
+        "recall",
+        "embedding",
+        "History",
+        "Embedding",
+        "history"
+      ]
+    },
+    "agent_score": 173
+  },
+  "LlamaIndex": {
+    "framework_signals": {
+      "agent_concepts": [
+        "TOOL",
+        "Environment",
+        "task",
+        "workflow",
+        "Task",
+        "context",
+        "environment",
+        "CONTEXT",
+        "Memory",
+        "AgentExecutor",
+        "tool",
+        "Tool",
+        "step",
+        "planner",
+        "TASK",
+        "memory",
+        "Workflow",
+        "Context",
+        "Step"
+      ],
+      "execution_patterns": [
+        "Loop",
+        "Respond",
+        "Reason",
+        "respond",
+        "decide",
+        "Act",
+        "loop",
+        "reflect",
+        "STREAM",
+        "reason",
+        "Execute",
+        "stream",
+        "execute",
+        "Iterate",
+        "iterate",
+        "Stream",
+        "observe",
+        "act",
+        "plan"
+      ],
+      "memory_and_context": [
+        "Faiss",
+        "FAISS",
+        "faiss",
+        "retrieval",
+        "Embedding",
+        "recall",
+        "History",
+        "chroma",
+        "history",
+        "context",
+        "Vectorstore",
+        "WEAVIATE",
+        "buffer",
+        "Weaviate",
+        "CONTEXT",
+        "Memory",
+        "Chroma",
+        "EMBEDDING",
+        "Buffer",
+        "Retrieval",
+        "weaviate",
+        "embedding",
+        "Recall",
+        "memory",
+        "CHROMA",
+        "VectorStore",
+        "vectorstore",
+        "Context"
+      ],
+      "reasoning_and_llm": [
+        "generate",
+        "Inference",
+        "predict",
+        "Generate",
+        "Thought",
+        "Completion",
+        "Reason",
+        "PROMPT",
+        "LLM",
+        "reflection",
+        "completion",
+        "Prompt",
+        "Predict",
+        "chain",
+        "TEMPLATE",
+        "prompt",
+        "reason",
+        "CHAIN",
+        "Chain",
+        "COMPLETION",
+        "llm",
+        "Template",
+        "inference",
+        "thought",
+        "ChatCompletion",
+        "template"
+      ],
+      "tool_and_api_use": [
+        "HTTP",
+        "TOOL",
+        "SEARCH",
+        "FunctionCall",
+        "FUNCTION_CALL",
+        "http",
+        "function_call",
+        "codeinterpreter",
+        "google-search",
+        "CodeInterpreter",
+        "code-interpreter",
+        "requests",
+        "Search",
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "Requests",
+        "retriever",
+        "aiohttp",
+        "google_search",
+        "browser",
+        "Retriever",
+        "Browser",
+        "search",
+        "GoogleSearch"
+      ],
+      "config_patterns": [
+        "Schema",
+        "SCHEMA",
+        ".env",
+        "MetaData",
+        "Metadata",
+        "metadata",
+        "schema",
+        "manifest",
+        "METADATA"
+      ],
+      "frameworks": [
+        "cohere",
+        "Haystack",
+        "llamaindex",
+        "vertexai",
+        "Langchain",
+        "langchain",
+        "COHERE",
+        "huggingface",
+        "Huggingface",
+        "VertexAI",
+        "haystack",
+        "OpenAIAgent",
+        "semantic_kernel",
+        "LLamaindex",
+        "Llamaindex",
+        "LangChain",
+        "HuggingFace",
+        "LlamaIndex",
+        "Cohere"
+      ]
+    },
+    "agent_score": 421
+  },
+  "Agents_AI_Waves": {
+    "framework_signals": {
+      "frameworks": [
+        "AIWaves",
+        "aiwaves"
+      ],
+      "config_patterns": [
+        "Schema",
+        ".env",
+        "metadata",
+        "schema"
+      ],
+      "agent_concepts": [
+        "Memory",
+        "memory",
+        "context",
+        "Environment",
+        "tool",
+        "Tool",
+        "environment",
+        "task",
+        "step",
+        "workflow",
+        "TASK",
+        "Task"
+      ],
+      "tool_and_api_use": [
+        "code_interpreter",
+        "tool",
+        "Tool",
+        "Search",
+        "search",
+        "retriever",
+        "http",
+        "requests",
+        "browser",
+        "GoogleSearch"
+      ],
+      "execution_patterns": [
+        "Iterate",
+        "decide",
+        "reason",
+        "stream",
+        "loop",
+        "observe",
+        "execute",
+        "act",
+        "plan"
+      ],
+      "reasoning_and_llm": [
+        "LLM",
+        "prompt",
+        "generate",
+        "reason",
+        "llm",
+        "thought",
+        "completion",
+        "Prompt",
+        "Generate",
+        "template"
+      ],
+      "memory_and_context": [
+        "Memory",
+        "memory",
+        "context",
+        "retrieval",
+        "weaviate",
+        "recall",
+        "embedding",
+        "History",
+        "Embedding",
+        "history"
+      ]
+    },
+    "agent_score": 173
+  }
+}
