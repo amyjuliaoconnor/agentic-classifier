@@ -43,6 +43,10 @@ PROVIDERS = {
     # --- Google ADK ecosystem ---
     "Google_ADK_Made_Simple": "https://github.com/chongdashu/adk-made-simple",
     "Google_ADK_Agent_Examples": "https://github.com/Astrodevil/ADK-Agent-Examples",
+    "Google_ADK_Sample_Agents": "https://github.com/google/adk-samples",
+    "Google_ADK_Made_Simple": "https://github.com/chongdashu/adk-made-simple",
+    "Google_ADK_Agent_Examples": "https://github.com/Astrodevil/ADK-Agent-Examples",
+
 
     # --- Cohere / Hugging Face ---
     "Cohere_Toolkit": "https://github.com/cohere-ai/cohere-toolkit",
