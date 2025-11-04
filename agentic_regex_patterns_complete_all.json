@@ -1,55 +1,74 @@
 {
-  "core_agentic": "\\b(agent|planner|executor|memory|reasoning|workflow|tool|context|coordinator|skill|intent|capability|policy_gate|registry|role|chat|actor|task|environment)\\b",
-  "sdk_imports": "\\b(from|import)\\s+(langchain|autogen|smolagents|semantic[_-]?kernel|llamaindex|crewai|uagents|agentverse|letta|superagi|metagpt|agno|haystack|openaigym|qwen|agentuniverse|agentscope|taskweaver|databerry|lagent|langroid|eliza|agent_s|agentgpt|pocketflow|deepcode|autonomous|aiwaves|chidori|reworkd|ai_legion)\\b",
-  "integration_points": "\\b(openai|vertexai|huggingface|anthropic|cohere|azure|slack|jira|notion|airtable|zapier|discord|github|googleapis|weaviate|chroma|faiss|qdrant|pinecone|snowflake|s3|dynamodb|supabase|milvus|redis|neo4j)\\b",
-  "config_metadata": "(model|api[_-]?key|endpoint|tool|env|config|yaml|json|capability|intent|workflow|registry|goal|policy|schema|parameters|agent_definition|project_id|token|organization|auth|integration|dependency)",
-  "language_identifiers": "\\.(py|ts|js|java|cs|go|rs|yaml|yml|json|ipynb)\\b",
-  "agent_description": "description\\s*[:=]\\s*[\\\"'](.+?)[\\\"']",
-  "agent_name": "name\\s*[:=]\\s*[\\\"']([A-Z][a-zA-Z0-9_ ]+)",
-  "negative_context": "\\b(test|mock|tutorial|example|sample|notebook|demo|benchmark|evaluation)\\b",
-  "framework_google_adk": "\\b(agent_definition|capability|intent_schema|workflow|registry|goal|policy_gate|environment|metadata|schema|agent_id|task_schema|skill_graph|intent_model)\\b",
-  "framework_langchain": "\\b(langchain|llm|chain|memory|prompt|agentexecutor|retriever|vectorstore|callback|tool|documentloader|langgraph)\\b",
-  "framework_microsoft_autogen": "\\b(autogen|assistant|userproxy|groupchat|conversation|planner|executor|chatagent|llmagent|multiagent)\\b",
-  "framework_semantic_kernel": "\\b(semantickernel|semantic[_-]?kernel|function_call|planner|skill|prompt|template|llm|memory|orchestrator|semanticfunction|kernelbuilder)\\b",
-  "framework_llamaindex": "\\b(llama_index|indexgraph|documentindex|vectorindex|retriever|queryengine|agent|llama_hub)\\b",
-  "framework_crewai": "\\b(crewai|crew|task|planner|manager|role|executor|memory|process|multiagent|workflow)\\b",
-  "framework_superagi": "\\b(superagi|toolkit|agentexecutor|goal|workflow|plan|taskqueue|memory|knowledgebase|llm|config)\\b",
-  "framework_metagpt": "\\b(metagpt|metacoder|agentteam|boss|executor|autoworkflow|role|context|project|taskflow|sop|codewriter)\\b",
-  "framework_agno": "\\b(agno|agnocore|framework|workflow|graph|runtime|context|agent|coordinator|memory|aiworker)\\b",
-  "framework_smolagents": "\\b(smolagents|reason|multistep|toolcalling|codeagent|chain|planner|reflection|workflow)\\b",
-  "framework_autogpt": "\\b(autogpt|autonomous|agent|config|goals|tasks|memory|browser|llm|command|workspace)\\b",
-  "framework_openai_agents": "\\b(openai[-_]?agents|realtime[-_]?agent|assistant|session|function|tool|json_mode|event|response|context)\\b",
-  "framework_langgraph": "\\b(langgraph|graphnode|graphagent|workflow|state|planner|executor|eventstream|reactagent)\\b",
-  "framework_haystack": "\\b(haystack|pipeline|documentstore|retriever|generator|agent|memory|tool|promptnode|component)\\b",
-  "framework_qwen_agent": "\\b(qwen|qwen_agent|function_calling|planner|memory|llm|prompt|multiagent|workflow)\\b",
-  "framework_uagents": "\\b(uagents|fetchai|wallet|service|contract|agent|behaviour|context|task|message|protocol)\\b",
-  "framework_agentverse": "\\b(agentverse|multiagent|collaboration|environment|memory|skill|config|benchmark|framework)\\b",
-  "framework_taskweaver": "\\b(taskweaver|microsoft|azureagent|planner|connector|task|execution|prompt|workflow|graph)\\b",
-  "framework_cohere": "\\b(cohere|cohere[-_]?ai|command[-_]?r|embed|classify|rerank|chat|generate|cohere[-_]?toolkit)\\b",
-  "framework_huggingface": "\\b(huggingface|transformers|datasets|pipeline|smolagents|spaces|inference|autotrain|modelhub)\\b",
-  "framework_openmanus": "\\b(openmanus|rlagent|metagpt|taskenv|manus|workflow|planner|aiassistant)\\b",
-  "framework_agentuniverse": "\\b(agentuniverse|universe|runtime|multiagent|framework|simulation|task|workflow)\\b",
-  "framework_anyagent": "\\b(anyagent|mozilla|agentfactory|agent|runtime|planner|registry|context|adapter|workflow)\\b",
-  "framework_aiwaves": "\\b(aiwaves|agents|multiagent|researchagent|workflow|prompt|planner|context|runtime|model)\\b",
-  "framework_lagent": "\\b(lagent|internlm|task|planner|executor|policy|memory|workflow|multiagent|agent)\\b",
-  "framework_langroid": "\\b(langroid|agent|memory|conversation|chatagent|tool|llm|workflow|retriever|context)\\b",
-  "framework_agentscope": "\\b(agentscope|multiagent|context|llm|runtime|planner|skill|workflow|hub|task|framework)\\b",
-  "framework_letta": "\\b(letta|agent|context|runtime|tool|planner|aiworker|workflow|interaction|orchestrator)\\b",
-  "framework_deerflow": "\\b(deerflow|deepresearch|bytedance|planner|executor|workflow|prompt|context|research)\\b",
-  "framework_agentbench": "\\b(agentbench|benchmark|eval|environment|agent|task|simulation|framework|dataset)\\b",
-  "framework_llmcompiler": "\\b(llmcompiler|squeezeai|runtime|optimizer|agent|compiler|workflow|context|policy)\\b",
-  "framework_eliza": "\\b(eliza|elizaos|emotional|agent|context|memory|persona|prompt|chat|response)\\b",
-  "framework_agent_s": "\\b(agent[_-]?s|simular|agent|simulation|multiagent|policy|runtime|context|interaction)\\b",
-  "framework_agentgpt": "\\b(agentgpt|reworkd|workflow|autonomous|goal|task|planner|browser|prompt|agent)\\b",
-  "framework_ai_legion": "\\b(ai[-_]?legion|autonomous|worker|task|planner|team|memory|workflow|manager|multiagent)\\b",
-  "framework_xagent": "\\b(xagent|openbmb|agent|workflow|role|planner|interaction|runtime|context|framework)\\b",
-  "framework_pocketflow": "\\b(pocketflow|pocket|tutorial|workflow|knowledge|agent|context|plan|learning|framework)\\b",
-  "framework_deepcode": "\\b(deepcode|agentic|code|assistant|workflow|reasoning|memory|reflection|llm)\\b",
-  "framework_airweave": "\\b(airweave|context|memory|agent|task|workflow|environment|dataflow|prompt|planner)\\b",
-  "framework_gptme": "\\b(gptme|cli|agent|chat|assistant|reasoning|planner|context|workflow|runtime)\\b",
-  "framework_codeinterpreter_api": "\\b(codeinterpreter|api|sandbox|tool|llm|function|executor|context|runtime|agent)\\b",
-  "framework_areal": "\\b(areal|rlagent|policy|agent|reinforcement|learning|task|planner|runtime)\\b",
-  "framework_quark_engine": "\\b(quark[-_]?engine|agent|executor|workflow|planner|context|runtime|function|tool)\\b",
-  "framework_gpt_researcher": "\\b(gpt[-_]?researcher|research|agent|workflow|planner|reflection|autonomous|task|context)\\b",
-  "framework_autonomous_agents": "\\b(autonomous[-_]?agents|framework|multiagent|planner|task|workflow|memory|context)\\b"
+  "core": {
+    "core_agentic": "(?i)\\b(agent|planner|executor|memory|reasoning|workflow|tool|context|coordinator|skill|intent|capability|policy_gate|registry|role|chat|actor|task|environment)\\b",
+    "sdk_imports": "(?i)\\b(from|import)\\s+(langchain|autogen|smolagents|semantic[_-]?kernel|llamaindex|crewai|uagents|agentverse|letta|superagi|metagpt|agno|haystack|openaigym|qwen|agentuniverse|agentscope|taskweaver|databerry|lagent|langroid|eliza|agent[_-]?s|agentgpt|pocketflow|deepcode|autonomous|aiwaves|chidori|reworkd|ai[_-]?legion|phidata|cortex|kani|llamastack|langfuse|opendevin)\\b",
+    "integration_points": "(?i)\\b(openai|vertexai|huggingface|anthropic|cohere|azure|slack|jira|notion|airtable|zapier|discord|github|googleapis|weaviate|chroma|faiss|qdrant|pinecone|snowflake|s3|dynamodb|supabase|milvus|redis|neo4j)\\b",
+    "language_identifiers": "(?i)\\.(py|ts|js|java|cs|go|rs|yaml|yml|json|ipynb)\\b"
+  },
+
+  
+  "metadata": {
+    "config_metadata": "(?i)(model|api[_-]?key|endpoint|tool|env|config|yaml|json|capability|intent|workflow|registry|goal|policy|schema|parameters|agent[_-]?definition|project[_-]?id|token|organization|auth|integration|dependency)\\s*[:=]",
+    "agent_description": "(?i)description\\s*[:=]\\s*[\\\"']([\\s\\S]+?)[\\\"']",
+    "agent_name": "(?i)name\\s*[:=]\\s*[\\\"']([A-Z][a-zA-Z0-9_ ]+)",
+    "negative_context": "(?i)\\b(test|mock|tutorial|example|sample|notebook|demo|benchmark|evaluation)\\b"
+  },
+
+  "frameworks": {
+    "framework_langchain": "(?i)\\b(langchain\\.|from\\s+langchain|import\\s+langchain)\\b",
+    "framework_llamaindex": "(?i)\\b(llama[_-]?index|from\\s+llama_index|import\\s+llama_index)\\b",
+    "framework_crewai": "(?i)(?<=\\bcrewai[\\s\\.]|from\\s+crewai|import\\s+crewai)[\\s\\S]*",
+    "framework_superagi": "(?i)(?<=\\bsuperagi[\\s\\.]|from\\s+superagi|import\\s+superagi)[\\s\\S]*",
+    "framework_metagpt": "(?i)(?<=\\bmetagpt[\\s\\.]|from\\s+metagpt|import\\s+metagpt)[\\s\\S]*",
+    "framework_agno": "(?i)(?<=\\bagno[\\s\\.]|from\\s+agno|import\\s+agno)[\\s\\S]*",
+    "framework_smolagents": "(?i)(?<=\\bsmolagents[\\s\\.]|from\\s+smolagents|import\\s+smolagents)[\\s\\S]*",
+    "framework_autogpt": "(?i)\\b(autogpt|autonomous|agent|config|goals|tasks|memory|browser|llm|command|workspace)\\b",
+    "framework_openai_agents": "(?i)\\b(openai[_-]?agents|realtime[_-]?agent|assistant|session|function|tool|json[_-]?mode|event|response|context)\\b",
+    "framework_langgraph": "(?i)\\b(langgraph|graphnode|graphagent|workflow|state|planner|executor|eventstream|reactagent)\\b",
+    "framework_haystack": "(?i)\\b(haystack|pipeline|documentstore|retriever|generator|agent|memory|tool|promptnode|component)\\b",
+    "framework_qwen_agent": "(?i)\\b(qwen|qwen[_-]?agent|function_calling|planner|memory|llm|prompt|multiagent|workflow)\\b",
+    "framework_uagents": "(?i)\\b(uagents|fetchai|wallet|service|contract|agent|behaviour|context|task|message|protocol)\\b",
+    "framework_agentverse": "(?i)\\b(agentverse|multiagent|collaboration|environment|memory|skill|config|benchmark|framework)\\b",
+    "framework_taskweaver": "(?i)\\b(taskweaver|microsoft|azureagent|planner|connector|task|execution|prompt|workflow|graph)\\b",
+    "framework_cohere": "(?i)\\b(cohere|cohere[_-]?ai|command[_-]?r|embed|classify|rerank|chat|generate|cohere[_-]?toolkit)\\b",
+    "framework_huggingface": "(?i)\\b(huggingface|transformers|datasets|pipeline|smolagents|spaces|inference|autotrain|modelhub)\\b",
+    "framework_phidata": "(?i)\\b(phidata|phidataai|agentflow|workflow|context|memory|planner|llm|runtime)\\b",
+    "framework_cortex": "(?i)\\b(cortex|cortexai|agentflow|planner|runtime|context|workflow|framework)\\b",
+    "framework_kani": "(?i)\\b(kani|rustagent|agent|planner|workflow|runtime|context|reasoning)\\b",
+    "framework_llamastack": "(?i)\\b(llamastack|llamaflow|workflow|context|planner|runtime|framework|agent)\\b",
+    "framework_langfuse": "(?i)\\b(langfuse|observability|trace|telemetry|workflow|context|framework|monitoring)\\b",
+    "framework_opendevin": "(?i)\\b(opendevin|devin|agent|runtime|planner|autonomous|workflow|environment)\\b"
+  },
+
+  "capabilities": {
+    "reasoning_behavior": "(?i)(reflect|reason|decide|goal|autonomous|multi[_-]?agent|self[_-]?improve|long[_-]?term|planner|react|reflection)",
+    "communication_patterns": "(?i)(message|protocol|broadcast|interaction|team|role|conversation|groupchat|collaboration|hub)",
+    "memory_patterns": "(?i)(episodic|context|memory|history|retriever|vectorstore|summary|trace|knowledge|embedding)"
+  },
+
+  "contextual": {
+    "file_paths": "(?i)(/agents?/|/skills?/|/workflows?/|/config/|agent_config|main[_-]?agent|registry.yaml|policy[_-]?gate)",
+
+    "class_definitions_python": "(?i)class\\s+(Agent|Planner|Executor|Crew|Workflow|Coordinator)[(\\s:]",
+    "class_definitions_typescript": "(?i)(export\\s+)?class\\s+(Agent|Planner|Executor|Workflow|Coordinator)\\s*(implements|extends|\\{)",
+    "class_definitions_java": "(?i)public\\s+(abstract\\s+)?class\\s+(Agent|Planner|Executor|Workflow|Coordinator)\\s*(implements|extends|\\{)",
+    "class_definitions_go": "(?i)type\\s+(Agent|Planner|Executor|Workflow|Coordinator)\\s+struct\\s*\\{",
+
+    "function_definitions_python": "(?i)def\\s+(plan|execute|think|reason|act|reflect|decide|coordinate|dispatch)\\s*\\(",
+    "function_definitions_typescript": "(?i)(async\\s+)?(plan|execute|think|reason|act|reflect|decide|coordinate|dispatch)\\s*\\(",
+    "function_definitions_java": "(?i)(public|private|protected)?\\s*(void|boolean|int|String|List<.*>|Map<.*>)\\s+(plan|execute|think|reason|act|reflect|decide|coordinate|dispatch)\\s*\\(",
+
+    "import_statements_python": "(?i)(from|import)\\s+[a-z0-9_\\.]+",
+    "import_statements_typescript": "(?i)import\\s+\\{?[\\w,\\s]*\\}?\\s+from\\s+['\\\"][@\\w/_-]+['\\\"]",
+    "import_statements_java": "(?i)import\\s+[\\w\\.]+;",
+
+    "decorators": "(?i)@?(agent|tool|workflow|skill|semantic[_-]?function|capability|intent)",
+    "docstrings": "(?i)(agent description|workflow overview|tool registry|policy gate|capability schema|ai system overview)",
+    "comment_cues": "(?i)#\\s*(agent|planner|executor|ai|workflow|policy|intent|todo:.*agent)"
+  },
+
+  "infrastructure": {
+    "package_dependencies": "(?i)(langchain|crewai|autogen|semantic[_-]?kernel|llama[_-]?index|phidata|metagpt|uagents|agentverse|agno|reworkd|superagi|opendevin|cortex|kani|llamastack|langfuse)",
+    "env_vars": "(?i)(OPENAI_API_KEY|ANTHROPIC_API_KEY|COHERE_API_KEY|VERTEXAI_PROJECT|LLM_ENDPOINT|AGENT_REGISTRY|AGENT_ENV)"
+  }
 }
